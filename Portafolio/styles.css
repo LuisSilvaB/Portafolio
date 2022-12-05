@@ -1,0 +1,225 @@
+html{
+        scroll-behavior: smooth;
+}        
+body{
+        margin: 0px;
+        padding: 0px;
+
+}
+header{
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        /*background-image: url('./src/Maravilla.jpg');*/
+        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-style: solid;
+}
+
+#navbar-day{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+
+}
+
+#navbar-night{
+
+}
+#logo{
+        margin-top: 10px;
+        margin-left:30px;
+        display: flex;
+        flex:1; 
+        flex-direction: row;
+        align-items: center;
+        border-style: solid;
+}
+#logo svg{
+        margin-left: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 50%;       
+        border-width: 1px;
+}
+#logo h3{
+        font-family: 'Fredoka One';
+        color: white;
+        padding-left: 10px;
+        font-size: 20px;
+}
+#options_bar{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        border-style: solid;
+        flex: 2;
+        display: flex;
+        justify-content: flex-end;
+}
+#options_bar a{
+        font-family: 'Didact Gothic';
+        color: white;
+        padding: 5px;
+        margin-right: 20px;
+        font-size: 20px;
+        text-decoration: none;
+}
+.Icon_Action{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+main{
+        display: flex;
+        flex-direction: column;
+}
+
+#Inicio{
+        display:flex; 
+        flex-direction: row;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        border-style: solid;
+}
+#inicioText h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 150px;
+        padding-left: 40px;
+        color: white;
+        max-width: 100%;
+        width: auto;
+        font-size: 35px;
+}
+#container_animationh1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+.h1_animation{
+        position: relative;
+        right: 0px;
+        margin-top: 150px;
+        margin-left: 40px;
+        margin-left: 0px;
+        border-style: solid;
+        width: 2px;
+        height: 30px;
+        
+}
+.h1_animation::after{
+        position: absolute;
+        content: "";
+        right: -2px;
+        width: 0px;
+        height: 30px;
+        border-left: white;
+        border-style: solid;
+        background-color: black;     
+        animation: efectoEscribir 6s alternate;
+}
+@keyframes efectoEscribir {
+        0%{
+                width: 650px;
+                
+        }
+        25%{
+                width: 250px;
+                
+        }
+        50%{
+                
+                width: 150px; 
+        }       
+        100%{
+                width: 0px; 
+        }
+
+} 
+#inicioText h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 40px;
+        color: white;
+        max-width: 100%;
+        width: auto;
+}
+#container_animationh2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+.Cursor{
+        position: relative;
+        border-style: solid;
+}
+.Cursor::before{
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: 0;
+        background-color: black;
+        width: 2px;
+        height: 30px;
+        border-left: solid 3px;
+        border-color: white;
+        animation: efectoEscribir2 5s alternate;
+}
+@keyframes efectoEscribir2{
+        0%{
+                width: 320px;
+        }
+        25%{
+                width: 220px;
+        }
+        50%{
+                width: 120px;
+        }
+        100%{
+                width: 0px;
+        }
+}
+#inicioText{
+        flex: 1;
+        border-style: solid;
+        border-color: white;
+
+}
+#inicioImage{
+        flex: 1;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        border-style: solid;
+        border-color: white;
+        
+}
+#inicioImage img{
+        border-radius: 50%;
+        max-width: 100%;
+        width: auto;
+}
+/*#Inicio img{
+        max-width: 100%;1039px
+        max-height: 100%;
+        top: 0;
+        position: absolute;
+        z-index: -3;
+}*/
+#Proyectos{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        border-style: solid;
+}
