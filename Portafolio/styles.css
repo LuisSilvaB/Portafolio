@@ -7,11 +7,13 @@ body{
 
 }
 header{
+        display: flex;
+        flex-direction: column;
         margin: 0px;
         padding: 0px;
-        background-color: black;
+        background-color: white;
         /*background-image: url('./src/Maravilla.jpg');*/
-        
+        height: 900px;
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -49,7 +51,7 @@ header{
 }
 #logo h3{
         font-family: 'Fredoka One';
-        color: white;
+        color: black;
         padding-left: 10px;
         font-size: 20px;
 }
@@ -65,7 +67,7 @@ header{
 }
 #options_bar a{
         font-family: 'Didact Gothic';
-        color: white;
+        color: black;
         padding: 5px;
         margin-right: 20px;
         font-size: 20px;
@@ -84,18 +86,21 @@ main{
 
 #Inicio{
         display:flex; 
+        height: 800px;
         flex-direction: row;
+        align-items: center;
         max-width: 100%;
         max-height: 100%;
-        width: auto;
-        height: auto;
         border-style: solid;
 }
 #inicioText h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-top: 150px;
+        padding-top: 50px;
         padding-left: 40px;
-        color: white;
+        color: black;
         max-width: 100%;
         width: auto;
         font-size: 35px;
@@ -108,10 +113,9 @@ main{
 .h1_animation{
         position: relative;
         right: 0px;
-        margin-top: 150px;
+        margin-top: 50px;
         margin-left: 40px;
         margin-left: 0px;
-        border-style: solid;
         width: 2px;
         height: 30px;
         
@@ -123,8 +127,8 @@ main{
         width: 0px;
         height: 30px;
         border-left: white;
-        border-style: solid;
-        background-color: black;     
+        background-color: white;  
+        border-left: solid 3px;  
         animation: efectoEscribir 6s alternate;
 }
 @keyframes efectoEscribir {
@@ -148,7 +152,7 @@ main{
 #inicioText h2{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         padding-left: 40px;
-        color: white;
+        color: black;
         max-width: 100%;
         width: auto;
 }
@@ -159,18 +163,16 @@ main{
 }
 .Cursor{
         position: relative;
-        border-style: solid;
 }
 .Cursor::before{
         content: "";
         position: absolute;
         top: -10px;
         right: 0;
-        background-color: black;
+        background-color: white;
         width: 2px;
         height: 30px;
         border-left: solid 3px;
-        border-color: white;
         animation: efectoEscribir2 5s alternate;
 }
 @keyframes efectoEscribir2{
@@ -223,3 +225,59 @@ main{
         height: auto;
         border-style: solid;
 }
+
+/* Tecnologías */
+#Tecnologias{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+}
+
+#Titulo_tecnologias{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 70px;
+        width: 180vh; 
+}
+#Titulo_tecnologias h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+}
+#icons_Tecnologias_group1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+#icons_Tecnologias_group1 div img{
+        width: 150px;
+        height: 150px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 150px;
+}
+#icons_Tecnologias_group1 div figcaption{
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#icons_Tecnologias_group2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+#icons_Tecnologias_group2 div img{
+        width: 150px;
+        height: 150px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 60px;
+}
+#icons_Tecnologias_group2 div figcaption{
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
