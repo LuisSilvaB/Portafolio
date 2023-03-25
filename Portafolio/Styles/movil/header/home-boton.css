@@ -1,0 +1,11 @@
+@media screen and (max-width:800px) { 
+  .home__boton{
+    border: none;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    font-family: var(--monserrat-font);
+  }
+}

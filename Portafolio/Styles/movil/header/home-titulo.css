@@ -1,0 +1,9 @@
+@media screen and (max-width:800px) {
+  .home__titulo{
+    font-family: var(--monserrat-font);
+    font-style: unset;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+}

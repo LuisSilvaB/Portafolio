@@ -1,0 +1,35 @@
+@media screen and (max-width:800px) {
+    .navbar__opcion--inactivo{
+        font-family: var(--monserrat-font);
+        font-size: 1.3rem;
+        border-bottom: solid 0.2rem var(--opcion-bordercolor);
+        padding-bottom: 0.5rem;
+        transition: all 0.1s ease-in-out;
+    }
+    .navbar__opcion--inactivo:active{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 0.5rem;
+        background-color: var(--boton-color);
+        color: var(--fuente-color);
+    }
+    .navbar__opcion--activo{
+        font-family: var(--monserrat-font);
+        font-size: 1.3rem;
+        border-bottom: solid 0.2rem var(--opcion-bordercolor);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 0.5rem;
+        background-color: var(--boton-color);
+        color: var(--fuente-color);
+        transition: all 0.1s ease-in-out;
+    }
+    .navbar__opcion--activo:active{
+        font-family: var(--monserrat-font);
+        font-size: 1.3rem;
+        color: black;
+        background-color: white;
+        border-bottom: solid 0.2rem var(--opcion-bordercolor);
+        padding-bottom: 0.5rem;
+        transition: all 0.1s ease-in-out;
+    }
+
+}

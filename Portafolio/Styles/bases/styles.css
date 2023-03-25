@@ -1,0 +1,16 @@
+*{
+        /*Colores*/
+        --fondo-color: #ede9e3;
+        --boton-color: #a7372b;
+        --icono-color: #3d1f1d;
+        --opcion-bordercolor: #a7372b; 
+        --fuente-color: #ffff;
+
+        /*Header*/
+        --funte-header-color: #424530; 
+
+        /*Fuentes*/
+        --monserrat-font: 'Montserrat', sans-serif;
+        --sainsserif-font: sans-serif;
+        --lobster-font: 'Lobster', cursive;
+}
