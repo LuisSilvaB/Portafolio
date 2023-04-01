@@ -1,0 +1,7 @@
+@media screen and (max-width:800px){
+  .conocimiento__list__item__title{
+    font-family: var(--monserrat-font);
+    width: 100%;
+    text-align: center;
+  }
+}

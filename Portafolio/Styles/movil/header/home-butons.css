@@ -1,0 +1,7 @@
+@media screen and (max-width:800px) {
+  .home__butons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

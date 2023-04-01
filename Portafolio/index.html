@@ -20,8 +20,23 @@
         <link rel="stylesheet" href="./Styles/movil/header/navbar-opcion.css">
         <link rel="stylesheet" href="./Styles/movil/header/home.css">
         <link rel="stylesheet" href="./Styles/movil/header/home-titulo.css">
+        <link rel="stylesheet" href="./Styles/movil/header/home-profesion.css">
+        <link rel="stylesheet" href="./Styles/movil/header/home-butons.css">
         <link rel="stylesheet" href="./Styles/movil/header/home-boton.css">
-        
+        <link rel="stylesheet" href="./Styles/movil/main/main.css">
+        <link rel="stylesheet" href="./Styles/movil/main/acerca/acerca.css">
+        <link rel="stylesheet" href="./Styles/movil/main/acerca/acerca-img.css">
+        <link rel="stylesheet" href="./Styles/movil/main/acerca/acerca-nombre.css">
+        <link rel="stylesheet" href="./Styles/movil/main/acerca/acerca-descripcion.css">
+        <link rel="stylesheet" href="./Styles/movil/main/conocimientos/conocimientos.css">
+        <link rel="stylesheet" href="./Styles/movil/main/conocimientos/conocimiento-titulo.css">
+        <link rel="stylesheet" href="./Styles/movil/main/conocimientos/conocimiento-list.css">
+        <link rel="stylesheet" href="./Styles/movil/main/conocimientos/conocimiento-list-item.css">
+        <link rel="stylesheet" href="./Styles/movil/main/conocimientos/conocimiento-list-item-title.css">
+
+
+
+
 </head>
 <body>
         <header class="header">
@@ -29,7 +44,7 @@
                         <div class="navbar__logo">
                                 <h1 class="navbar__titulo">Luis Silva</h1>
                         </div>
-                        <ul class="navbar__list--close">
+                        <ul class="navbar__list navbar__list--close">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="navbar__svg--arow bi bi-chevron-left"
                                         viewBox="0 0 16 16">
                                         <path fill-rule="evenodd"
@@ -49,9 +64,76 @@
                </nav>
                <section class="home">
                         <p class="home__titulo">Bienvenido a mi página web</p>
-                        <p>Desarrollador web</p>
-                        <button class="home__boton">Acerca de mi</button>
+                        <p class="home__profesion">Desarrollador web - frontend</p>
+                        <div class="home__butons">
+                                <button class="home__boton home__boton--acerca">Acerca de mi</button>
+                                <button class="home__boton home__boton--descarga">Descargar cv</button>
+                        </div>
                </section> 
         </header>
+        <main class="main">
+                <section class="acerca">
+                        <img class="acerca__img" src="./src/img/img-acerca/foto_acerca.webp" alt="foto de luis">
+                        <h3 class="acerca__nombre">Luis Armando Silva Balladares</h3>
+                        <p class="acerca__descipcion">
+                                Estudiante en Ingeniería de Computación y Sistemas en Trujillo, buscando aplicar mis habilidades de programación en la industria.
+                                Apasionado por la tecnología y el trabajo en equipo.
+                        </p>                        
+                </section>
+                <section class="conocimientos">
+                        <h3 class="conocimiento__titulo">Tecnologías</h3>
+                        <ul class="conocimiento__list">
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/html.ico" alt="html5 icon">
+                                        <p class="conocimiento__list__item__title">Html5</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/css.ico" alt="Css icon">
+                                        <p class="conocimiento__list__item__title">Css</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/javaScript.ico" alt="">
+                                        <p class="conocimiento__list__item__title">Javascript</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/react.ico" alt="Javascript icon">
+                                        <p class="conocimiento__list__item__title">React</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/bootstrap.ico" alt="bootstrap icon">
+                                        <p class="conocimiento__list__item__title">Bootstrap</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/git.ico" alt="Git icon">
+                                        <p class="conocimiento__list__item__title">Git</p>
+                                </li>
+                        </ul>
+                        <h3 class="conocimiento__titulo">Herramientas</h3>
+                        <ul class="conocimiento__list">
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/github.ico" alt="Github icon">
+                                        <p class="conocimiento__list__item__title">Github</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/figma.ico" alt="Figma icon">
+                                        <p class="conocimiento__list__item__title">Figma</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/XD.ico" alt="AdobeXD icon">
+                                        <p class="conocimiento__list__item__title">Adobe XD</p>
+                                </li>
+                                <li class="conocimiento__list__item">
+                                        <img src="./src/Icons/tecnologías/ilustrator.ico" alt="Ilustrator icon">
+                                        <p class="conocimiento__list__item__title">Ilustrator</p>
+                                </li>
+                        </ul>
+                </section>
+                <section class="proyectos">
+                
+                </section>
+                <section class="contacto">
+
+                </section>
+        </main>
 </body>
 </html>

@@ -1,0 +1,7 @@
+@media screen and (max-width:800px) {
+  .acerca__descipcion{
+    font-family: var(--monserrat-font);
+    text-align: start;
+    line-height: 1.5rem;
+  }
+}

@@ -8,9 +8,17 @@
 
         /*Header*/
         --funte-header-color: #424530; 
+        --boton-header-descarga:#424530;
 
         /*Fuentes*/
         --monserrat-font: 'Montserrat', sans-serif;
         --sainsserif-font: sans-serif;
         --lobster-font: 'Lobster', cursive;
-}
+        
+        /*Acerca de*/
+        --background-color-acerca: #424530; 
+        --fuente-color-acerca: #424530;
+
+        /*Conocimientos*/
+        --icon-color-conocimiento: #a7372b; 
+}       

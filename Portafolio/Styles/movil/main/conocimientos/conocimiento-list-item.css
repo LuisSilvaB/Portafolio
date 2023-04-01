@@ -1,0 +1,9 @@
+@media screen and (max-width:800px) {
+  .conocimiento__list__item{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 5rem;
+  }
+} 

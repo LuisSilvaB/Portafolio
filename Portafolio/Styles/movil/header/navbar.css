@@ -1,5 +1,6 @@
 @media screen and (max-width:800px){  
     .navbar{
+        position: fixed;
         width: 100vw;
         height: 3rem;
         display: flex;

@@ -1,0 +1,9 @@
+@media screen and (max-width:800px) {
+  .conocimiento__titulo{
+    text-align: center;
+    font-family: var(--monserrat-font);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: solid var(--boton-color);
+  }
+}
