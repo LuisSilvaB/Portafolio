@@ -2,10 +2,10 @@
   .conocimientos{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     box-sizing: border-box;
   }
 }

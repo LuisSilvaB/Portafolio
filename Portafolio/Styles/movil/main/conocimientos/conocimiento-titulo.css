@@ -5,5 +5,8 @@
     font-weight: bold;
     font-size: 1.5rem;
     border-bottom: solid var(--boton-color);
+    margin-top: 1rem;
+    padding-bottom: 1rem ;
+    margin-bottom: 1rem;
   }
 }
