@@ -1,5 +1,8 @@
 @media screen and (max-width:800px) {
   .proyecto__card__tecnologias{
-    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
