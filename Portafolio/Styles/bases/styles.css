@@ -21,4 +21,17 @@
 
         /*Conocimientos*/
         --icon-color-conocimiento: #a7372b; 
+
+        /*Inicio*/
+        --titulo-color:#fff;  
+        --fondo-color: #D9B18F;
+        --boton-color: #ffff;
+        --icono-color: #07748C;
+        --opcion-bordercolor: #a7372b; 
+        --fuente-color-subtitulo: #ffff;
+        --fuente-color-btn: #066873;
+        /*Fuentes*/
+        --monserrat-font: 'Montserrat', sans-serif;
+        --sainsserif-font: sans-serif;
+        --lobster-font: 'Lobster', cursive;
 }       

@@ -1,9 +1,0 @@
-@media screen and (max-width:800px) {
-  .proyectos{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color:whitesmoke ;
-  } 
-}
