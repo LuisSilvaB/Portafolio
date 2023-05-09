@@ -8,36 +8,89 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../Styles/bases/reset.css">
   <link rel="stylesheet" href="../Styles/bases/styles.css">
   <link rel="stylesheet" href="../Styles/pages/Inicio/main.css">
   <link rel="stylesheet" href="../Styles/pages/Inicio/P-T-C-container.css">
   <link rel="stylesheet" href="../Styles/pages/Inicio/P-T-container.css">
+  <!--Perfil-->  
   <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil.css">
   <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-titulo.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-container.css">
   <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-subtitulo.css">
-  <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-parrafo.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-presentacion.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-ocupacion.css">
   <link rel="stylesheet" href="../Styles/pages/Inicio/Pefil/Perfil-boton.css">
+  <!--Proyectos-->
   <link rel="stylesheet" href="../Styles/pages/Inicio/Proyectos/proyectos.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Proyectos/Proyectos-container.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Proyectos/Proyectos-titulo.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Proyectos/Proyectos-descripcion.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Proyectos/Proyectos-boton.css">
+  <!--Tecnologías-->
   <link rel="stylesheet" href="../Styles/pages/Inicio/Tecnologias/tecnologias.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Tecnologias/Tecnologias-container.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Tecnologias/Tecnologias-titulo.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Tecnologias/Tecnologias-descripcion.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Tecnologias/Tecnologias-boton.css">
+  <!--Contacto-->
   <link rel="stylesheet" href="../Styles/pages/Inicio/Contacto/contacto.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Contacto/Contacto-container.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Contacto/Contacto-titulo.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Contacto/Contacto-descripcion.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Contacto/Contacto-iconos.css">
+  <link rel="stylesheet" href="../Styles/pages/Inicio/Contacto/Contacto-boton.css">
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  
 </head>
 <body class="main">
   <section class="Perfil">
     <h1 class="Perfil__titulo">Luis Silva</h1>
-    <h3 class="Perfil__subtitulo"> Welcome to my website </h3>
-    <p class="Perfil__parrafo"> I'm Luis Armando Silva Balladares</p>
-    <button class="Perfil__boton">View my profile</button>
+    <div class="Perfil__container">
+      <h3 class="Perfil__subtitulo"> BIENVENIDO A MI SITIO WEB </h3>
+      <p class="Perfil__presentacion"> Hola, soy Luis Armando Silva Balladares </p>
+      <p class="Perfil__ocupacion">Front End Developer</p>
+      <button class="Perfil__boton">Ver perfil <box-icon name='user-circle'></box-icon></button>
+    </div>
   </section>
   <section class="P-T-C-container">
     <section class="P-T-container">
       <section class="Proyectos">  
+        <div class="Proyectos__container">
+          <h3 class="Proyectos__titulo">PROYECTOS</h3>
+          <p class="Proyectos__descripcion">
+            Cada proyecto tiene su propia página donde se describe en detalle lo que se hizo y cómo se hizo. Además, he incluido
+          capturas de pantalla y enlaces a los repositorios de código para que puedas ver mi trabajo en acción.
+        </p>
+        <button class="Proyectos__boton">Ver proyectos <box-icon name='collection'></box-icon></button>
+        </div>
       </section>
       <section class="Tecnologias">
+        <div class="Tecnologias__container">
+          <h3 class="Tecnologias__titulo">TECNOLOGIAS</h3>
+          <p class="Tecnologias__descripcion">
+            Aquí te presentaré algunas de las tecnologías web que domino y otros conocimientos que tengo en el campo de la
+            programación. Estoy comprometido con la educación continua y siempre estoy explorando nuevas tecnologías
+        </p>
+          <button class="Tecnologias__boton">Ver tecnologías <box-icon name='react' type='logo'></box-icon></button>
+        </div>
       </section>      
     </section>
     <section class="Contacto">
-  
+      <div class="Contacto__container">
+        <h3 class="Contacto__titulo">Contacto</h3>
+        <p class="Contacto__descripcion">
+          ¡No dudes en contactarme si tienes alguna pregunta o si estás interesado en colaborar en un proyecto! Puedes encontrar
+          mi información de contacto en la sección correspondiente de esta página web. ¡Espero escuchar de ti pronto!
+        </p>
+        <div class="Contacto__iconos">
+          <box-icon size="35px" name='linkedin' type='logo'></box-icon>
+          <box-icon size="35px" name='github' type='logo'></box-icon>
+          <box-icon size="35px" type='solid' name='paper-plane'></box-icon>
+        </div>
+      </div>
     </section>
   </section>
 </body>

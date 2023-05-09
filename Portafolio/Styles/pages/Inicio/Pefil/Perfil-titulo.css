@@ -18,7 +18,7 @@
     left: 10px;
     font-family: var(--lobster-font);
     color: var(--titulo-color);
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 @media screen and (max-width:640px) {
@@ -29,7 +29,7 @@
     left: 10px;
     font-family: var(--lobster-font);
     color: var(--titulo-color);
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
 

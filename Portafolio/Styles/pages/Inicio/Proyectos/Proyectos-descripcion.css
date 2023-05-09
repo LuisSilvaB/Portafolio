@@ -1,0 +1,32 @@
+@media screen and (min-width:751px) {
+  .Proyectos__descripcion{
+    font-family: var(--monserrat-font);
+    color: white;
+    font-size: 0.9rem;
+    width: 75%;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width:750px) {
+  .Proyectos__descripcion{
+    font-family: var(--monserrat-font);
+    color: white;
+    font-size: 1.3rem;
+    width: 75%;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width:640px) {
+  .Proyectos__descripcion{
+    font-family: var(--monserrat-font);
+    color: white;
+    font-size: 1.3rem;
+    width: 75%;
+    line-height: 1.5rem;
+  }
+
+}

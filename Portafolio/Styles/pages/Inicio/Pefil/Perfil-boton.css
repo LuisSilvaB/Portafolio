@@ -3,12 +3,19 @@
     font-family: var(--monserrat-font);
     background-color: var(--boton-color);
     color: var(--fuente-color-btn);
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
-    width: 20%;
+    width: 25%;
     border-radius: 10px;
     padding: 10px;
     transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .Perfil__boton box-icon{
+    fill: var(--fuente-color-btn);
   }
   .Perfil__boton:hover{
     opacity: 80%;
@@ -24,12 +31,19 @@
     font-family: var(--monserrat-font);
     background-color: var(--boton-color);
     color: var(--fuente-color-btn);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: none;
     width: 40%;
     border-radius: 10px;
     padding: 10px;
     transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .Perfil__boton box-icon{
+    fill: var(--fuente-color-btn);
   }
   .Perfil__boton:hover{
     opacity: 80%;
@@ -38,4 +52,35 @@
   .Perfil__boton:active{
     opacity: 80%;
   }
+}
+
+@media screen and (max-width: 640px) {
+  .Perfil__boton {
+      font-family: var(--monserrat-font);
+      background-color: var(--boton-color);
+      color: var(--fuente-color-btn);
+      font-size: 1.1rem;
+      border: none;
+      width: 40%;
+      border-radius: 10px;
+      padding: 10px;
+      transition: all 0.3s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .Perfil__boton box-icon {
+      fill: var(--fuente-color-btn);
+    }
+  
+    .Perfil__boton:hover {
+      opacity: 80%;
+      cursor: pointer;
+    }
+  
+    .Perfil__boton:active {
+      opacity: 80%;
+    }
 }

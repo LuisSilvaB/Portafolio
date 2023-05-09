@@ -1,0 +1,25 @@
+@media screen and (min-width:751px) {
+  .Perfil__ocupacion{
+    font-family: var(--monserrat-font);
+    color: rgb(199, 196, 196);
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .Perfil__ocupacion{
+    font-family: var(--monserrat-font);
+    color: whitesmoke;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .Perfil__ocupacion{
+    font-family: var(--monserrat-font);
+    color: whitesmoke;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+}
