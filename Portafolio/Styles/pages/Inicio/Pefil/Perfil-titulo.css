@@ -19,8 +19,8 @@
     font-family: var(--lobster-font);
     color: var(--titulo-color);
     font-size: 1.7rem;
-    border: solid;
   }
+}
 @media screen and (max-width:640px) {
   .Perfil__titulo {
     position: absolute;
@@ -30,8 +30,7 @@
     font-family: var(--lobster-font);
     color: var(--titulo-color);
     font-size: 1.2rem;
-    border: coral;
   }
 }
-}
+
 
