@@ -21,6 +21,7 @@
     font-size: 2rem;
   }
 }
+
 @media screen and (max-width:640px) {
   .Perfil__titulo {
     position: absolute;
@@ -29,7 +30,7 @@
     left: 10px;
     font-family: var(--lobster-font);
     color: var(--titulo-color);
-    font-size: 2rem;
+    font-size: 7vw;
   }
 }
 

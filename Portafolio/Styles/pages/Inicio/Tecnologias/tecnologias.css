@@ -10,7 +10,7 @@
     .Tecnologias:hover{
       /* flex: 3; */
       cursor: pointer;
-      transform: scale(0.98);
+      transform: scale(1.01);
     }
 }
 
@@ -34,4 +34,15 @@
       background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Tecnologias.jpg') no-repeat center;
       background-size: cover;
     }
+}
+
+@media screen and (max-width:300px) {
+  .Tecnologias {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Foto de RealToughCandy.com: https: //www.pexels.com/es-es/foto/mano-efecto-desenfocado-bokeh-sujetando-11035471/ */
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Tecnologias.jpg') no-repeat center;
+    background-size: cover;
+  }
 }

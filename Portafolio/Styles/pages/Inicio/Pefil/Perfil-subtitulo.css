@@ -26,3 +26,13 @@
     border-width: 1px;
   }
 }
+@media screen and (max-width:450px) {
+  .Perfil__subtitulo {
+    box-sizing: border-box;
+    color: var(--titulo-color);
+    font-family: var(--vina-sans);
+    font-size: 13vw;
+    width: 80%;
+    border-width: 1px;
+  }
+}

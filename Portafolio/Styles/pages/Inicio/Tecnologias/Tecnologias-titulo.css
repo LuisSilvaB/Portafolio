@@ -30,3 +30,13 @@
     padding-bottom: 4px;
   }
 }
+@media screen and (max-width:300px) {
+  .Tecnologias__titulo {
+    font-family: var(--vina-sans);
+    color: var(--titulo-color);
+    font-size: 3rem;
+    border-left: 3px solid white;
+    padding-left: 0.4rem;
+    padding-bottom: 4px;
+  }
+}

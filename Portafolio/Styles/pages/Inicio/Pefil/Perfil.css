@@ -16,7 +16,7 @@
   }
   .Perfil:hover{
     cursor: pointer;
-    transform: scale(0.98);
+    transform: scale(1.01);
   }
 }
 
@@ -31,6 +31,16 @@
   }
 }
 @media screen and (max-width: 640px) {
+  .Perfil {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url('../../../../src/playa2.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 350px) {
   .Perfil {
     position: relative;
     box-sizing: border-box;
