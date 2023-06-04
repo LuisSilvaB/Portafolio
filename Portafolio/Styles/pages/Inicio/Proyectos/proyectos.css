@@ -2,7 +2,7 @@
   .Proyectos{
     position: relative;
     flex: 1;
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Proyectos.jpg') no-repeat center;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Proyectos.webp') no-repeat center;
     background-size: cover;
     transition: all 0.3s ease-in-out;
   }
@@ -17,7 +17,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Proyectos.jpg') no-repeat center;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Proyectos.webp') no-repeat center;
     background-size: cover;
   }
 }
@@ -27,7 +27,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Proyectos.jpg') no-repeat center;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('../../../../src/img/Inicio/Proyectos.webp') no-repeat center;
     background-size: cover;
   }
 }
