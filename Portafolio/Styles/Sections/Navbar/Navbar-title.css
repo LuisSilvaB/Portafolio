@@ -1,0 +1,43 @@
+@media screen and (min-width:901px) {
+  .Navbar__title{
+    font-family: var(--lobster-font);
+    font-size: 1.7vw;
+    color: white;
+  }
+  .Navbar__title:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Navbar__title{
+    font-family: var(--lobster-font);
+    font-size: 1.7vw;
+    color: white;
+  }
+  .Navbar__title:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Navbar__title{
+    font-family: var(--lobster-font);
+    font-size: 1.7vw;
+    color: white;
+  }
+  .Navbar__title:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Navbar__title{
+    font-family: var(--lobster-font);
+    font-size: 1.7vw;
+    color: white;
+  }
+  .Navbar__title:hover{
+    cursor: pointer;
+  }
+}
