@@ -23,8 +23,9 @@
 @media screen and (max-width:600px) {
   .Navbar__title{
     font-family: var(--lobster-font);
-    font-size: 1.7vw;
+    font-size: 6vw;
     color: white;
+    margin-left: 20px;
   }
   .Navbar__title:hover{
     cursor: pointer;

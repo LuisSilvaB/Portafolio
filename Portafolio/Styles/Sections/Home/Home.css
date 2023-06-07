@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   .Home p:first-child{
     font-family: var(--monserrat-font);
@@ -49,7 +49,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   .Home p:first-child{
     font-family: var(--monserrat-font);
@@ -87,7 +87,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   .Home p:first-child{
     font-family: var(--monserrat-font);
@@ -125,7 +125,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   .Home p:first-child{
     font-family: var(--monserrat-font);

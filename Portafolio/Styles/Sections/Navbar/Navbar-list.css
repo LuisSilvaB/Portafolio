@@ -22,9 +22,16 @@
 
 @media screen and (max-width:600px) {
   .Navbar__list{
+    display: none;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Navbar__list_open{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 40px;
     justify-content: space-around;
     align-items: center;
@@ -36,6 +43,14 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Navbar__list_open{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
     justify-content: space-around;
     align-items: center;
