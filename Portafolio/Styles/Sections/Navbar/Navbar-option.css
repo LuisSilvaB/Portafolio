@@ -38,11 +38,13 @@
 
 @media screen and (max-width:600px) {
   .Navbar__option{
-    color: white;
-    font-size: 1vw;
+    width: auto;
+    color: lightslategray;
+    font-size: 7vw;
     font-family: var(--monserrat-font);
     font-weight: bold;
     padding: 0.3rem;
+    text-align: center;
     transition: all 0.1s ease-in-out; 
   }
   .Navbar__option:hover{
@@ -50,14 +52,14 @@
     cursor: pointer;
   }
   .Navbar__option:active{
-    color: lightslategray;
-    background-color: white;
+    color: black;
+    background-color: rgb(141, 141, 141);
   }
 }
 
 @media screen and (max-width:300px) {
   .Navbar__option{
-    color: white;
+    color: lightslategray;
     font-size: 1vw;
     font-family: var(--monserrat-font);
     font-weight: bold;
@@ -69,7 +71,7 @@
     cursor: pointer;
   }
   .Navbar__option:active{
-    color: lightslategray;
+    color: black;
     background-color: white;
   }
 }
