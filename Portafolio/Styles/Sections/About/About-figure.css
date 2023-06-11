@@ -1,0 +1,35 @@
+@media screen and (min-width:901px) {
+  .About__figure{
+    width: 50%;
+  }  
+  .About__figure img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .About__figure{
+    width: 50%;
+  }
+  .About__figure img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .About__figure{
+    width: 80%;
+  }
+  .About__figure img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .About__figure{
+    width: 80%;
+  }
+  .About__figure img{
+    width: 100%;
+  }
+}

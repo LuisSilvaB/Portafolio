@@ -1,0 +1,84 @@
+@media screen and (min-width:901px) {
+  .About__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .About__description h3{
+    font-family: var(--montserrat-font);
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  .About__description h4{
+    font-family: var(--sainsserif-font);
+    font-size: 1vw;
+    font-weight: bolder; 
+  }
+  .About__description p {
+    font-family: var(--sainsserif-font);
+    font-size: 0.9vw;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .About__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .About__description h3{
+    font-family: var(--montserrat-font);
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .About__description h4{
+    font-family: var(--sainsserif-font);
+  }
+  .About__description p {
+    font-family: var(--sainsserif-font);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .About__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .About__description h3{
+    font-family: var(--montserrat-font);
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .About__description h4{
+    font-family: var(--sainsserif-font);
+  }
+  .About__description p {
+    font-family: var(--sainsserif-font);
+  }
+}
+
+@media screen and (max-width:300px) {
+  .About__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .About__description h3{
+    font-family: var(--montserrat-font);
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .About__description h4{
+    font-family: var(--sainsserif-font);
+  }
+  .About__description p {
+    font-family: var(--sainsserif-font);
+  }
+}
