@@ -13,13 +13,14 @@
     padding: 0px;
   }
   .About__description h4{
-    font-family: var(--sainsserif-font);
+    font-family: var(--montserrat-font);
     font-size: 1vw;
     font-weight: bolder; 
   }
   .About__description p {
-    font-family: var(--sainsserif-font);
+    font-family: var(--montserrat-font);
     font-size: 0.9vw;
+    line-height: 1.5rem;
   }
 }
 
@@ -36,10 +37,17 @@
     font-weight: bold;
   }
   .About__description h4{
-    font-family: var(--sainsserif-font);
+    font-family: var(--montserrat-font);
+    border: solid;
+    font-weight: 100;
   }
-  .About__description p {
-    font-family: var(--sainsserif-font);
+  .About__description p{
+    font-family: cursive;
+    text-align: center;
+  }
+  .About__description hr{
+    width: 100%;
+    border: solid red 2px; 
   }
 }
 
