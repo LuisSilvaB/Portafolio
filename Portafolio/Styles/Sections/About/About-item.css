@@ -1,0 +1,36 @@
+@media screen and (min-width: 901px) {
+  .About__item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--montserrat-font);
+    font-size: 0.8vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .About__item {
+    width: 45%;
+    display: flex;
+    font-family: var(--montserrat-font);
+    font-size: 0.8vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .About__item {
+    width: 45%;
+    display: flex;
+    font-family: var(--montserrat-font);
+    font-size: 0.8vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .About__item {
+    width: 45%;
+    display: flex;
+    font-family: var(--montserrat-font);
+    font-size: 0.8vw;
+  }
+}

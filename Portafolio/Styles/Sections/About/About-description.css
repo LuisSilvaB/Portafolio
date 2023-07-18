@@ -3,12 +3,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
   }
   .About__description h3{
     font-family: var(--montserrat-font);
     font-size: 3vw;
-    font-weight: bold;
+    font-weight: 900;
     margin: 0px;
     padding: 0px;
   }

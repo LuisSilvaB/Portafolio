@@ -7,8 +7,9 @@
   <title>Luis Silva</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@700;800&family=Vina+Sans&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="../Styles/bases/reset.css">
   <link rel="stylesheet" href="../Styles/bases/styles.css">
   <link rel="stylesheet" href="./Styles/Sections/Header/Header.css">
@@ -24,6 +25,9 @@
   <link rel="stylesheet" href="./Styles/Sections/About/About-container.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-figure.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-description.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-list.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-item.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-button.css">
 </head>
 <body>
     <header>
@@ -54,21 +58,32 @@
     </header>
     <main>
       <section class="About">
-        <div class="About__container">
+        <div class="About__container"> 
           <figure class="About__figure">
             <img src="./src/img/About/3135768.png" alt="Profile image">
           </figure>
           <div class="About__description">
-            <h3>Hello</h3>
+            <h3>HELLO!</h3>
             <h4>I AM A FRONTEND DEVELOPER</h4>
             <p>I am an enthusiast of software development who is excited to apply as a junior developer. My passion for technology and
             problem-solving has led me to pursue a career in this dynamic and ever-evolving field.</p>
-            <hr>
             <ul class="About__list">
-              <li class="About__item"><b>NAME: </b>Luis Armando Silva Balladares</li>
-              <li class="About__item"><b>EMAIL: </b>luisarmandoballadares@gmail.com</li>
-              <li class="About__item"><b>OLD: </b>22</li>
-              <li class="About__item"><b>ADDRESS: </b>Trujillo, Perú</li>
+              <li class="About__item">
+                <p class="About__item__Title">NAME:</p>
+                <p class="About__item__sub">Luis Armando Silva Balladares<p>
+              </li>
+              <li class="About__item">
+                <p class="About__item__Title">NATIONALITY</p>
+                <p class="About__item__sub">Peruvian</p>
+              </li>
+              <li class="About__item">
+                <p class="About__item__Title">OLD</p>
+                <p class="About__item__sub">22</p>
+              </li>
+              <li class="About__item">
+                <p class="About__item__Title">ADDRESS</p>
+                <p class="About__item__sub">Trujillo, Perú</p>
+              </li>
             </ul> 
             <button class="About__button">DOWNLOAD CV 
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill"
