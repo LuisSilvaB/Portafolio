@@ -1,35 +1,46 @@
 @media screen and (min-width:901px) {
   .About__figure{
-    flex: 1;
+    flex: 2;
+    display: flex;
+    justify-content: center;
   }  
   .About__figure img{
     width: 20rem;
+    border-radius: 40px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   }
 }
 
 @media screen and (max-width:900px) {
   .About__figure{
-    width: 50%;
+    width: 60%;
+    height: auto;
   }
   .About__figure img{
     width: 100%;
+    height: 350px;
+    border-radius: 10px;
   }
 }
 
 @media screen and (max-width:600px) {
   .About__figure{
-    width: 80%;
+    width: 60%;
+    height: auto;
   }
   .About__figure img{
     width: 100%;
+    height: 200px;
   }
 }
 
 @media screen and (max-width:300px) {
   .About__figure{
-    width: 80%;
+    width: 40%;
+    height: auto;
   }
   .About__figure img{
     width: 100%;
+    height: 100px;
   }
 }

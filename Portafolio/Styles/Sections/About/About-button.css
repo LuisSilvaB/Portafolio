@@ -1,47 +1,106 @@
 @media screen and (min-width: 901px) {
   .About__button{
+    font-family: var(--montserrat-font);
+    font-weight: 600;
+    /* Dimensions */
     width: 20rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     padding: 0.4rem;
+    /* Colors */
+    background-color: wheat;
+    color: rgb(77, 77, 77);
+    transition: all 0.3s ease-in-out;
+  }
+  .About__button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: solid wheat 0.1rem;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .About__button{
-    width: 20rem;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    border: none;
-    padding: 0.4rem;
-  }
+  .About__button {
+      font-family: var(--montserrat-font);
+      font-weight: 600;
+      /* Dimensions */
+      width: 20rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 10px;
+      border: none;
+      padding: 0.4rem;
+      /* Colors */
+      background-color: wheat;
+      color: rgb(77, 77, 77);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .About__button:hover {
+      cursor: pointer;
+      background-color: white;
+      border: solid wheat 0.1rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .About__button{
-    width: 20rem;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    border: none;
-    padding: 0.4rem;
-  }
+  .About__button {
+      font-family: var(--montserrat-font);
+      font-weight: 600;
+      /* Dimensions */
+      width: 15rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 10px;
+      border: none;
+      padding: 0.4rem;
+      /* Colors */
+      background-color: wheat;
+      color: rgb(77, 77, 77);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .About__button:hover {
+      cursor: pointer;
+      background-color: white;
+      border: solid wheat 0.1rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
-  .About__button{
-    width: 20rem;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 20px;
-    border: none;
-    padding: 0.4rem;
-  }
+  .About__button {
+      font-family: var(--montserrat-font);
+      font-weight: 600;
+      /* Dimensions */
+      width: 18rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 10px;
+      border: none;
+      padding: 0.4rem;
+      /* Colors */
+      background-color: wheat;
+      color: rgb(77, 77, 77);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .About__button:hover {
+      cursor: pointer;
+      background-color: white;
+      border: solid wheat 0.1rem;
+    }
 }

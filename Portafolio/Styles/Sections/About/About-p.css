@@ -1,0 +1,64 @@
+@media screen and (min-width:901px) {
+  .About__description__p-desktop{
+    font-family: var(--montserrat-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2vw;
+  }
+  .About__description__p-mobile{
+    font-family: var(--montserrat-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2vw;
+  }
+}
+@media screen and (max-width:900px) {
+  /* .About__description__p-desktop{
+    font-family: var(--montserrat-font);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1rem;
+  } */
+  .About__description__p-mobile{
+    font-family: var(--montserrat-font);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1rem;
+  }
+}
+@media screen and (max-width:600px) {
+  /* .About__description__p-desktop{
+    font-family: var(--montserrat-font);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+  } */
+  .About__description__p-mobile{
+    font-family: var(--montserrat-font);
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1rem;
+  }
+}
+@media screen and (max-width:300px) {
+  /* .About__description__p-desktop {
+      font-family: var(--montserrat-font);
+      font-size: 0.5rem;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 2rem;
+  } */
+  .About__description__p-mobile {
+      font-family: var(--montserrat-font);
+      font-size: 0.5rem;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1rem;
+  }
+}

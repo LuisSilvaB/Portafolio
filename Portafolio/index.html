@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@700;800&family=Vina+Sans&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200&family=Raleway:wght@300&family=Vina+Sans&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="../Styles/bases/reset.css">
   <link rel="stylesheet" href="../Styles/bases/styles.css">
@@ -25,8 +25,12 @@
   <link rel="stylesheet" href="./Styles/Sections/About/About-container.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-figure.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-description.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-h3.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-p.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-list.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-item.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-title.css">
+  <link rel="stylesheet" href="./Styles/Sections/About/About-subtitle.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-button.css">
 </head>
 <body>
@@ -35,11 +39,11 @@
         <h1 class="Navbar__title">Luis Silva</h1>
         <section>
           <ul id="Navbar-list" class="Navbar__list">
-            <li class="Navbar__option">Home</li>
-            <li class="Navbar__option">About me</li> 
-            <li class="Navbar__option">Skills</li>
-            <li class="Navbar__option">Projects</li>
-            <li class="Navbar__option">Contact me</li>
+            <li class="Navbar__option">Inicio</li>
+            <li class="Navbar__option">Perfil</li> 
+            <li class="Navbar__option">Habilidades</li>
+            <li class="Navbar__option">Proyectos</li>
+            <li class="Navbar__option">Contacto</li>
           </ul>
           <div id="Navbar-button" class="Navbar__hamburguer_close">
             <span class="line line1"></span>
@@ -49,43 +53,55 @@
         </section>
       </nav>
       <section class="Home">
-        <p>Hi, I'm</p>
+        <p>Hola &#128075; soy</p>
         <h2>Luis Silva</h2>
-        <p>This is my personal portfolio.</p>
-        <p>- Frontend Developer -</p>
-        <button class="Home__button">ABOUT ME</button>
+        <p>Este es mi portafolio personal</p>
+        <p>- Frontend Developer -</p> 
+        <button class="Home__button">Conóceme</button>
       </section>
     </header>
     <main>
       <section class="About">
         <div class="About__container"> 
           <figure class="About__figure">
-            <img src="./src/img/About/3135768.png" alt="Profile image">
+            <img src="./src/img/About/luis.jpg" alt="Profile image">
           </figure>
           <div class="About__description">
-            <h3>HELLO!</h3>
-            <h4>I AM A FRONTEND DEVELOPER</h4>
-            <p>I am an enthusiast of software development who is excited to apply as a junior developer. My passion for technology and
-            problem-solving has led me to pursue a career in this dynamic and ever-evolving field.</p>
+            <h3 class="About__description__h3">HOLA!</h3>
+            <!-- <p class="About__description__p-desktop">
+              Soy estudiante de la carrera de ingeniería en computación y sistemas, poseo una amplia gama de cualidades y habilidades
+              que me destacan en el mundo tecnológico. Mi pasión por la informática y la programación me ha llevado a dominar diversas
+              herramientas de ofimática y lenguajes de programación, permitiéndome abordar proyectos de manera innovadora y eficiente.
+              Mi capacidad para estudiar de forma autodidacta me ha brindado la oportunidad de mantenerme actualizado en las últimas
+              tendencias tecnológicas y adaptarme rápidamente a los cambios del campo.
+            </p> -->
             <ul class="About__list">
               <li class="About__item">
-                <p class="About__item__Title">NAME:</p>
+                <p class="About__item__Title">Nombre</p>
                 <p class="About__item__sub">Luis Armando Silva Balladares<p>
               </li>
               <li class="About__item">
-                <p class="About__item__Title">NATIONALITY</p>
-                <p class="About__item__sub">Peruvian</p>
+                <p class="About__item__Title">Nacionalidad</p>
+                <p class="About__item__sub">Peruana</p>
               </li>
               <li class="About__item">
-                <p class="About__item__Title">OLD</p>
+                <p class="About__item__Title">Edad</p>
                 <p class="About__item__sub">22</p>
               </li>
               <li class="About__item">
-                <p class="About__item__Title">ADDRESS</p>
+                <p class="About__item__Title">Dirección</p>
                 <p class="About__item__sub">Trujillo, Perú</p>
               </li>
+              <li class="About__item">
+                <p class="About__item__Title">Correo</p>
+                <p class="About__item__sub">luisarmandoballadares@gmail.com</p>
+              </li>
+              <li class="About__item">
+                <p class="About__item__Title">Github</p>
+                <p class="About__item__sub">LuisSilvaB</p>
+              </li>
             </ul> 
-            <button class="About__button">DOWNLOAD CV 
+            <button class="About__button">DESCARGAR CV 
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill"
               viewBox="0 0 16 16">
               <path
@@ -94,6 +110,23 @@
             </button>  
           </div>
         </div>
+      </section>
+      <section class="Skills">
+        <ul class="Skill__list">
+          <li class="Skill__item">
+            <p>Programación</p>
+          </li>
+          <li>
+            <p>Bases de datos</p>
+          </li>
+          <li>
+            <p>Analisis de datos</p>
+          </li>
+          <li>
+            <p>Herramientas de diseño</p>
+          </li>
+        </ul>
+        
       </section>
     </main>
   </body>

@@ -55,7 +55,7 @@
 }
 @media screen and (max-width:400px) {
   .Home__button{
-    width: 10vw;
+    width: 30vw;
     height: 4vh;
     border: none;
     border-radius: 10px;
