@@ -1,0 +1,39 @@
+@media screen and (min-width:901px) {
+  .Skill__bar-container{
+    position: relative;
+    width: 100%;
+    border: solid 0.1px rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Skill__bar-container{
+    position: relative;
+    width: 100%;
+    border: solid 0.1px rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Skill__bar-container{
+    position: relative;
+    width: 100%;
+    border: solid 0.1px rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Skill__bar-container{
+    position: relative;
+    width: 100%;
+    border: solid 0.1px rgb(163, 163, 163);
+    border-radius: 10px;
+    height: 15px;
+  }
+}

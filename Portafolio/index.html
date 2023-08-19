@@ -10,8 +10,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200&family=Raleway:wght@300&family=Vina+Sans&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../Styles/bases/reset.css">
-  <link rel="stylesheet" href="../Styles/bases/styles.css">
+  <link rel="stylesheet" href="./Styles/bases/reset.css">
+  <link rel="stylesheet" href="./Styles/bases/styles.css">
   <link rel="stylesheet" href="./Styles/Sections/Header/Header.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar-title.css">
@@ -32,6 +32,17 @@
   <link rel="stylesheet" href="./Styles/Sections/About/About-title.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-subtitle.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About-button.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skills.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skills-title.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skills-container.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skills-group.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skill-sub.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skill-bar-group.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skill-bar-item.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skill-name.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skill-bar-container.css">
+  <link rel="stylesheet" href="./Styles/Sections/Skills/Skill-bar.css">
+  
 </head>
 <body>
     <header>
@@ -48,7 +59,7 @@
           <div id="Navbar-button" class="Navbar__hamburguer_close">
             <span class="line line1"></span>
             <span class="line line2"></span>
-            <span class="lene line3"></span>
+            <span class="line line3"></span>
           </div>
         </section>
       </nav>
@@ -112,21 +123,179 @@
         </div>
       </section>
       <section class="Skills">
-        <ul class="Skill__list">
-          <li class="Skill__item">
-            <p>Programación</p>
+        <h3 class="Skills__title">HABILIDADES</h3>
+        <ul class="Skills__container">
+          <li class="Skills__group">
+            <p class="Skill__sub">Programación</p>
+            <div class="Skill__bar-group">
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>HTML</span>
+                    <span>90%</span> 
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-HTML"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>CSS</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-CSS"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>JAVASCRIPT</span>
+                    <span>60%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-JAVASCRIPT"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>REACT JS</span>
+                    <span>50%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-REACT"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>GIT - GITHUB</span>
+                    <span>40%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-GIT-GITHUB"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>EXPRESS JS</span>
+                    <span>20%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-EXPRESS"></div>
+                  </div>
+                </div>
+            </div>
           </li>
-          <li>
-            <p>Bases de datos</p>
+          <li class="Skills__group">
+            <p class="Skill__sub">Bases de datos</p>
+              <div class="Skill__bar-group">
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>MYSQL</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-MYSQL"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>POSTGRESQL</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-POSTGRESQL"></div>
+                  </div>
+                </div>
+                <div class="Skill__bar-item">
+                  <div class="Skill__name">
+                    <span>FIREBASE</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="Skill__bar-container">
+                    <div class="Skill__bar Skill__bar-FIREBASE"></div>
+                  </div>
+                </div>
           </li>
-          <li>
-            <p>Analisis de datos</p>
+          <li class="Skills__group">
+            <p class="Skill__sub">Analisis de datos</p>
+            <div class="Skill__bar-group">
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>EXCEL</span>
+                  <span>70%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-EXCEL"></div>
+                </div>
+              </div>
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>PYTHON</span>
+                  <span>50%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-PYTHON"></div>
+                </div>
+              </div>
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>POWER BY</span>
+                  <span>40%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-POWERBY"></div>
+                </div>
+              </div>
           </li>
-          <li>
-            <p>Herramientas de diseño</p>
+          <li class="Skills__group">
+            <p class="Skill__sub">Herramientas de diseño y ofimática</p>
+            <div class="Skill__bar-group">
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>WORD</span>
+                  <span>80%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-WORD"></div>
+                </div>
+              </div>
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>POWER POINT</span>
+                  <span>70%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-POWERPOINT"></div>
+                </div>
+              </div>
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>FIGMA</span>
+                  <span>80%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-FIGMA"></div>
+                </div>
+              </div>
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>ADOBE XD</span>
+                  <span>60%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-ADOBEXD"></div>
+                </div>
+              </div>
+              <div class="Skill__bar-item">
+                <div class="Skill__name">
+                  <span>ILUSTRATOR</span>
+                  <span>60%</span>
+                </div>
+                <div class="Skill__bar-container">
+                  <div class="Skill__bar Skill__bar-ILUSTRATOR"></div>
+                </div>
+              </div>
           </li>
         </ul>
-        
       </section>
     </main>
   </body>

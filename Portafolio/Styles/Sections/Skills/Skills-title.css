@@ -1,0 +1,39 @@
+@media screen and (min-width:901px) {
+  .Skills__title{
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 2.5rem;
+    border-bottom: 1px solid;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Skills__title{
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 2.5rem;
+    border-bottom: 1px solid;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Skills__title{
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 2.5rem;
+    border-bottom: 1px solid;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Skills__title{
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 2.5rem;
+    border-bottom: 1px solid;
+  }
+}

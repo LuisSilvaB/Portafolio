@@ -1,0 +1,19 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisSilvaB/Portafolio.git"
+  },
+  "author": "LuisSilvaB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisSilvaB/Portafolio/issues"
+  },
+  "homepage": "https://github.com/LuisSilvaB/Portafolio#readme"
+}

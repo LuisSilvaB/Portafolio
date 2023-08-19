@@ -1,0 +1,319 @@
+@media screen and (min-width:901px) {
+  .Skill__bar{
+    position: absolute;
+    height: 15px;
+    border-radius: 20px;
+  }
+  /*Programacion*/
+  .Skill__bar-HTML{
+    width: 90%;
+    background-color: #024959;
+  }
+  .Skill__bar-CSS{
+    width: 70%;
+    background-color: #024959;
+  }
+  .Skill__bar-JAVASCRIPT{
+    width: 60%;
+    background-color: #024959;
+  }
+  .Skill__bar-REACT{
+    width: 50%;
+    background-color: #024959;
+  }
+  .Skill__bar-GIT-GITHUB{
+    width: 40%;
+    background-color: #024959;
+  }
+  .Skill__bar-EXPRESS{
+    width: 20%;
+    background-color: #024959;
+  }
+  /*Base de datos*/
+  .Skill__bar-MYSQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-POSTGRESQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-FIREBASE{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  /*Analisis de datos*/
+  .Skill__bar-EXCEL{
+    width: 70%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-PYTHON{
+    width: 50%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-POWERBY{
+    width: 40%;
+    background-color: #03A6A6;
+  }
+  /* Herramientas de diseño y ofimatica*/
+  .Skill__bar-FIGMA{
+    width: 70%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ADOBEXD{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ILUSTRATOR{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-WORD{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-POWERPOINT{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Skill__bar{
+    position: absolute;
+    height: 15px;
+    border-radius: 20px;
+  }
+  /*Programacion*/
+  .Skill__bar-HTML{
+    width: 90%;
+    background-color: #024959;
+  }
+  .Skill__bar-CSS{
+    width: 70%;
+    background-color: #024959;
+  }
+  .Skill__bar-JAVASCRIPT{
+    width: 60%;
+    background-color: #024959;
+  }
+  .Skill__bar-REACT{
+    width: 50%;
+    background-color: #024959;
+  }
+  .Skill__bar-GIT-GITHUB{
+    width: 40%;
+    background-color: #024959;
+  }
+  .Skill__bar-EXPRESS{
+    width: 20%;
+    background-color: #024959;
+  }
+  /*Base de datos*/
+  .Skill__bar-MYSQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-POSTGRESQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-FIREBASE{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  /*Analisis de datos*/
+  .Skill__bar-EXCEL{
+    width: 70%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-PYTHON{
+    width: 50%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-POWERBY{
+    width: 40%;
+    background-color: #03A6A6;
+  }
+  /* Herramientas de diseño y ofimatica*/
+  .Skill__bar-FIGMA{
+    width: 70%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ADOBEXD{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ILUSTRATOR{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-WORD{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-POWERPOINT{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Skill__bar{
+    position: absolute;
+    height: 15px;
+    border-radius: 20px;
+  }
+  /*Programacion*/
+  .Skill__bar-HTML{
+    width: 90%;
+    background-color: #024959;
+  }
+  .Skill__bar-CSS{
+    width: 70%;
+    background-color: #024959;
+  }
+  .Skill__bar-JAVASCRIPT{
+    width: 60%;
+    background-color: #024959;
+  }
+  .Skill__bar-REACT{
+    width: 50%;
+    background-color: #024959;
+  }
+  .Skill__bar-GIT-GITHUB{
+    width: 40%;
+    background-color: #024959;
+  }
+  .Skill__bar-EXPRESS{
+    width: 20%;
+    background-color: #024959;
+  }
+  /*Base de datos*/
+  .Skill__bar-MYSQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-POSTGRESQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-FIREBASE{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  /*Analisis de datos*/
+  .Skill__bar-EXCEL{
+    width: 70%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-PYTHON{
+    width: 50%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-POWERBY{
+    width: 40%;
+    background-color: #03A6A6;
+  }
+  /* Herramientas de diseño y ofimatica*/
+  .Skill__bar-FIGMA{
+    width: 70%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ADOBEXD{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ILUSTRATOR{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-WORD{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-POWERPOINT{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Skill__bar{
+    position: absolute;
+    height: 15px;
+    border-radius: 20px;
+  }
+  /*Programacion*/
+  .Skill__bar-HTML{
+    width: 90%;
+    background-color: #024959;
+  }
+  .Skill__bar-CSS{
+    width: 70%;
+    background-color: #024959;
+  }
+  .Skill__bar-JAVASCRIPT{
+    width: 60%;
+    background-color: #024959;
+  }
+  .Skill__bar-REACT{
+    width: 50%;
+    background-color: #024959;
+  }
+  .Skill__bar-GIT-GITHUB{
+    width: 40%;
+    background-color: #024959;
+  }
+  .Skill__bar-EXPRESS{
+    width: 20%;
+    background-color: #024959;
+  }
+  /*Base de datos*/
+  .Skill__bar-MYSQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-POSTGRESQL{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  .Skill__bar-FIREBASE{
+    width: 30%;
+    background-color: #037F8C;
+  }
+  /*Analisis de datos*/
+  .Skill__bar-EXCEL{
+    width: 70%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-PYTHON{
+    width: 50%;
+    background-color: #03A6A6;
+  }
+  .Skill__bar-POWERBY{
+    width: 40%;
+    background-color: #03A6A6;
+  }
+  /* Herramientas de diseño y ofimatica*/
+  .Skill__bar-FIGMA{
+    width: 70%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ADOBEXD{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-ILUSTRATOR{
+    width: 60%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-WORD{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+  .Skill__bar-POWERPOINT{
+    width: 80%;
+    background-color: #D9B2A9;
+  }
+}

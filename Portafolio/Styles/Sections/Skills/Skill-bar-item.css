@@ -1,0 +1,31 @@
+@media screen and (min-width:901px) {
+  .Skill__bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Skill__bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Skill__bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Skill__bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
