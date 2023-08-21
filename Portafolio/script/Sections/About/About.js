@@ -10,7 +10,7 @@ export function replace_paragraph(){
     const $desktopParagraph = d.createElement("p"); 
     $desktopParagraph.classList.add("About__description__p-desktop"); 
     $desktopParagraph.innerText = 
-    `Soy estudiante de la carrera de ingeniería en computación y sistemas, poseo una amplia gama de cualidades y habilidades que me destacan en el mundo tecnológico. Mi pasión por la informática y la programación me ha llevado a dominar diversas herramientas de ofimática y lenguajes de programación, permitiéndome abordar proyectos de manera innovadora y eficiente. Mi capacidad para estudiar de forma autodidacta me ha brindado la oportunidad de mantenerme actualizado en las últimas tendencias tecnológicas y adaptarme rápidamente a los cambios del campo.`
+    `Soy estudiante de la carrera de ingeniería en computación y sistemas, poseo una amplia gama de cualidades y habilidades que me destacan en el mundo tecnológico. Mi pasión por la informática y la programación me ha llevado a dominar diversas herramientas de ofimática y lenguajes de programación, permitiéndome abordar proyectos de manera innovadora y eficiente. `
     const $mobileParagraph = d.createElement("p"); 
     $mobileParagraph.classList.add("About__description__p-mobile");
     $mobileParagraph.innerText =

@@ -5,6 +5,7 @@
     font-weight: 400;
     font-style: normal;
     line-height: 2vw;
+    width: 40vw;
   }
   .About__description__p-mobile{
     font-family: var(--montserrat-font);
@@ -12,6 +13,7 @@
     font-weight: 400;
     font-style: normal;
     line-height: 2vw;
+    width: 40vw;
   }
 }
 @media screen and (max-width:900px) {
@@ -40,10 +42,10 @@
   } */
   .About__description__p-mobile{
     font-family: var(--montserrat-font);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 400;
     font-style: normal;
-    line-height: 1rem;
+    line-height: 1.3rem;
   }
 }
 @media screen and (max-width:300px) {
