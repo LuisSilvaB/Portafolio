@@ -5,8 +5,6 @@
     flex-direction: column;
     gap: 20px;
     background-color: rgb(247, 247, 247);
-    height: 500px;
-    border-radius: 10px;
     padding: 10px;
   }
 }
@@ -16,7 +14,7 @@
     flex: 500px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     background-color: rgb(247, 247, 247);
     height: auto;
     border-radius: 20px;
@@ -29,7 +27,7 @@
     flex: 500px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     background-color: rgb(247, 247, 247);
     height: auto;
     border-radius: 20px;
@@ -42,7 +40,7 @@
     flex: 500px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     background-color: rgb(247, 247, 247);
     height: auto;
     border-radius: 20px;

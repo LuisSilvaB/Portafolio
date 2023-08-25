@@ -73,7 +73,7 @@
       font-family: var(--montserrat-font);
       font-weight: 600;
       /* Dimensions */
-      width: 20rem;
+      width: 15rem;
       height: 4rem;
       display: flex;
       justify-content: center;
@@ -223,8 +223,6 @@
       font-family: var(--montserrat-font);
       font-weight: 600;
       /* Dimensions */
-      width: 18rem;
-      height: 4rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -244,8 +242,8 @@
       border: solid wheat 0.1rem;
     }
   .cv{
-    width: 15rem;
-    height: 3rem;
+    width: 10rem;
+    height: 2rem;
     background-color: wheat;
     color: rgb(77, 77, 77);
   }
@@ -258,8 +256,8 @@
       border: solid wheat 0.1rem;
   }
   .github {
-    width: 10rem;
-    height: 3rem;
+    width: 8rem;
+    height: 2rem;
     background-color:#010409;
     color: white;
   }
@@ -276,8 +274,8 @@
       fill: #010409;
   }
   .linkedin{
-    width: 10rem;
-    height: 3rem;
+    width: 6rem;
+    height: 2rem;
     background-color:#0A66C2;
     color: white;
   }

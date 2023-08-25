@@ -4,9 +4,9 @@
     width: 80%;
     display: flex;
     flex-wrap: wrap;
+    align-items: start;
+    object-fit: contain;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
   }
 }
 

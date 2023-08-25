@@ -16,6 +16,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    font-size: 0.9rem;
   }
   .Skill__name span{
     font-family: var(--montserrat-font);
@@ -29,6 +30,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    font-size: 0.7rem;
   }
   .Skill__name span{
     font-family: var(--montserrat-font);
@@ -42,6 +44,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    font-size: 0.7rem;
   }
   .Skill__name span{
     font-family: var(--montserrat-font);
