@@ -1,0 +1,28 @@
+@media screen and (min-width: 901px){
+  .Education__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 900px){
+  .Education__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 600px){
+  .Education__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 301px){
+  .Education__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

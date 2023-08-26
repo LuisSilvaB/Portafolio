@@ -1,0 +1,27 @@
+@media screen and (min-width: 901px) {
+  .Education__card-date{
+    font-family: var(--monserrat-font);
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Education__card-date{
+    font-family: var(--monserrat-font);
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Education__card-date{
+    font-family: var(--monserrat-font);
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Education__card-date{
+    font-family: var(--monserrat-font);
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,55 @@
+@media screen and (min-width: 901px) {
+  .Education {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Education {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Education {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Education {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
