@@ -1,0 +1,51 @@
+@media screen and (min-width:901px) {
+  .Project__card-tag {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    font-family: var(--monserrat-font);
+    color: white;
+    gap: 10px;
+    border-radius: 20px; 
+    border: solid 0.5px white;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Project__card-tag {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    font-family: var(--monserrat-font);
+    color: white;
+    gap: 10px;
+    border-radius: 20px; 
+    border: solid 0.5px white;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Project__card-tag {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    font-family: var(--monserrat-font);
+    color: white;
+    gap: 10px;
+    border-radius: 20px; 
+    border: solid 0.5px white;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Project__card-tag {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    font-family: var(--monserrat-font);
+    color: white;
+    gap: 10px;
+    border-radius: 20px; 
+    border: solid 0.5px white;
+  }
+}

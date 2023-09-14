@@ -1,0 +1,43 @@
+@media screen and (min-width: 901px) {
+  .Projects__cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Projects__cards-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Projects__cards-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Projects__cards-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}

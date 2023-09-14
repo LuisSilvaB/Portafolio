@@ -1,0 +1,42 @@
+@media screen and (min-width: 901px) {
+  .Projects__title {
+    font-family: var(--monserrat-font);
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Projects__title {
+    font-family: var(--monserrat-font);
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+    width: 100%;
+    border: so;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Projects__title {
+    font-family: var(--monserrat-font);
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+    width: 100%;
+    border: so;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Projects__title {
+    font-family: var(--monserrat-font);
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+    width: 100%;
+    border: so;
+  }
+}
