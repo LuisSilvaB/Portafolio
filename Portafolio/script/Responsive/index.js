@@ -11,8 +11,8 @@ export default function Responsive(HamburguerID,NavarListID){
       $Hamburguer.classList.replace("Navbar__hamburguer_open","Navbar__hamburguer_close")
     }
     else{
-      $Navbar_list.classList.replace("Navbar__list-close","Navbar__list")
-      $Navbar_list.classList.replace("Navbar__list-open","Navbar__list")
+      $Navbar_list.classList.replace("Navbar__list-close","Navbar__list"); 
+      $Navbar_list.classList.replace("Navbar__list-open","Navbar__list"); 
     }
   })
 }
