@@ -1,0 +1,38 @@
+@media screen and (min-width:901px) {
+  .Home__info{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Home__info {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 40vw;
+    border: solid;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Home__info {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 40vw;
+    border: solid;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Home__info {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 40vw;
+    border: solid;
+  }
+}

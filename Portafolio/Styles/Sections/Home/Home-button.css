@@ -8,12 +8,16 @@
     font-weight: bold;
     font-size: 0.8vw;
     color: rgb(77, 77, 77);
-    background: wheat;
+    background: #053B50;
+    color: white;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   .Home__button:hover{
     cursor: pointer;
     background-color: white;
+    color: #053B50;
+    border: 1px solid #053B50;
   }
 }
 @media screen and (max-width:900px) {
@@ -26,13 +30,17 @@
     font-weight: bold;
     font-size: 0.8vw;
     color: rgb(77, 77, 77);
-    background: wheat;
+    background: #053B50;
+    color: white;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 
   .Home__button:hover {
     cursor: pointer;
-    background-color: white;
+    background-color:white; 
+    color: #053B50;
+    border-color: solid #053B50;
   }
 }
 @media screen and (max-width:600px) {
@@ -45,12 +53,16 @@
     font-weight: bold;
     font-size: 3vw;
     color: rgb(77, 77, 77);
-    background: wheat;
+    background: #053B50;
+    color: white;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   .Home__button:hover{
     cursor: pointer;
     background-color: white;
+    color: #053B50;
+    border-color: solid #053B50;
   }
 }
 @media screen and (max-width:400px) {
@@ -63,12 +75,16 @@
     font-weight: bold;
     font-size: 3vw;
     color: rgb(77, 77, 77);
-    background: wheat;
+    background: #053B50;
+    color: white;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   .Home__button:hover{
     cursor: pointer;
     background-color: white;
+    color: #053B50;
+    border-color: solid #053B50;
   }
 }
 @media screen and (max-width:300px) {
@@ -81,11 +97,15 @@
     font-weight: bold;
     font-size: 5vw;
     color: rgb(77, 77, 77);
-    background: wheat;
+    background: #053B50;
+    color: white;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }  
   .Home__button:hover{
     cursor: pointer;
     background-color: white;
+    color: #053B50;
+    border-color: solid #053B50;
   }
 }

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LuisSilvaB/Portafolio/issues"
   },
-  "homepage": "https://github.com/LuisSilvaB/Portafolio#readme"
+  "homepage": "https://github.com/LuisSilvaB/Portafolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
 }

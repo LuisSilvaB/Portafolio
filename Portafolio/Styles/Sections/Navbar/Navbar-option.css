@@ -1,81 +1,50 @@
 @media screen and (min-width:901px) {
   .Navbar__option{
     box-sizing: border-box;
-    color: white;
+    color: #053B50;
     font-size: 1vw;
     font-family: var(--monserrat-font);
-    font-weight: bold;
+    font-weight: semibold;
     padding: 0.5rem;
     transition: all 0.5s ease-in-out; 
     cursor: pointer;
-  }
-  .Navbar__option:hover{
-    transition: 0.5s all ease-in-out;
-    border-bottom:solid 2px white; 
-  }
-  .Navbar__option:active{
-    box-sizing: border-box;
-    transition: 2s all ease-in-out;
-    color: lightslategray;
-    background-color: white;
   }
 }
 
 @media screen and (max-width:900px) {
   .Navbar__option{
-    color: white;
+    color: #053B50;
     font-size: 1vw;
     font-family: var(--monserrat-font);
-    font-weight: bold;
+    font-weight: semibold;
     padding: 0.3rem;
     transition: all 0.1s ease-in-out; 
-  }
-  .Navbar__option:hover{
-    border-bottom: solid;
     cursor: pointer;
-  }
-  .Navbar__option:active{
-    color: lightslategray;
-    background-color: white;
   }
 }
 
 @media screen and (max-width:600px) {
   .Navbar__option{
     width: auto;
-    color: lightslategray;
+    color: #053B50;
     font-size: 7vw;
     font-family: var(--monserrat-font);
     font-weight: bold;
     padding: 0.3rem;
     text-align: center;
     transition: all 0.1s ease-in-out; 
-  }
-  .Navbar__option:hover{
-    border-bottom: solid;
     cursor: pointer;
-  }
-  .Navbar__option:active{
-    color: black;
-    background-color: rgb(141, 141, 141);
   }
 }
 
 @media screen and (max-width:300px) {
   .Navbar__option{
-    color: lightslategray;
+    color: #053B50;
     font-size: 1vw;
     font-family: var(--monserrat-font);
     font-weight: bold;
     padding: 0.3rem;
     transition: all 0.1s ease-in-out; 
-  }
-  .Navbar__option:hover{
-    border-bottom: solid;
     cursor: pointer;
-  }
-  .Navbar__option:active{
-    color: black;
-    background-color: white;
   }
 }

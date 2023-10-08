@@ -7,18 +7,21 @@
   <title>Luis Silva</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200&family=Raleway:wght@300&family=Vina+Sans&display=swap"
-    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lobster&family=Montserrat:wght@600;700;800;900&family=Vina+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./Styles/bases/reset.css">
   <link rel="stylesheet" href="./Styles/bases/styles.css">
   <link rel="stylesheet" href="./Styles/Sections/Header/Header.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar.css">
+  <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar-container.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar-title.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar-list.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar-option.css">
   <link rel="stylesheet" href="./Styles/Sections/Navbar/Navbar-hamburgrer.css">
   <link rel="stylesheet" href="./Styles/Sections/Home/Home.css">
+  <link rel="stylesheet" href="./Styles/Sections/Home/Home-container.css">
+  <link rel="stylesheet" href="./Styles/Sections/Home/Home-info.css">
   <link rel="stylesheet" href="./Styles/Sections/Home/Home-button.css">
   <link rel="stylesheet" href="./Styles/Sections/Main/Main.css">
   <link rel="stylesheet" href="./Styles/Sections/About/About.css">
@@ -70,28 +73,45 @@
 <body>
     <header> 
       <nav class="Navbar" id="Nav">
-        <h1 class="Navbar__title">Luis Silva</h1>
-        <section>
-          <ul id="Navbar-list" class="Navbar__list">
-            <li class="Navbar__option">Inicio</li>
-            <li class="Navbar__option">Perfil</li> 
-            <li class="Navbar__option">Habilidades</li>
-            <li class="Navbar__option">Proyectos</li>
-            <li class="Navbar__option">Contacto</li>
-          </ul>
-          <div id="Navbar-button" class="Navbar__hamburguer_close">
-            <span class="line line1"></span>
-            <span class="line line2"></span>
-            <span class="line line3"></span>
-          </div>
-        </section>
+        <div class="Navbar__container">
+          <h1 class="Navbar__title">Luis Silva</h1>
+          <section>
+            <ul id="Navbar-list" class="Navbar__list">
+              <li class="Navbar__option">Home</li>
+              <li class="Navbar__option">Skills</li> 
+              <li class="Navbar__option">Projects</li>
+              <li class="Navbar__option">Contact</li>
+              <li class="Navbar__option">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#053B50" class="bi bi-moon-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                </svg>
+              </li>
+            </ul>
+            <div id="Navbar-button" class="Navbar__hamburguer_close">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+          </section>
+        </div>
       </nav>
       <section class="Home">
-        <p>Hola &#128075; soy</p>
-        <h2>Luis Silva</h2>
-        <p>Este es mi portafolio personal</p>
-        <p>- Frontend Developer -</p> 
-        <button class="Home__button">Conóceme</button>
+        <div class="Home__container">
+          <div class="Home__info">
+            <h2>Hi, I'm Luis Silva</h2>
+            <p>WEB DEVELOPER</p> 
+            <p>Passionate about learning, willing to face new technological challenges.</p>
+            <div class="Home__buttons">
+  
+            </div>
+            <button class="Home__button">Download CV</button>
+          </div>
+          <div class="Home__photo">
+            <img src="./src/img/Home/LuisSilva_photo.png" alt="Luis Foto">
+          </div>
+        </div>
       </section>
     </header>
     <main>
@@ -1124,6 +1144,7 @@
       </section>
     </main>
   </body>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script type="module" src="./script/javascript.js"></script>
 </html>

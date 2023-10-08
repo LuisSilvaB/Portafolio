@@ -6,7 +6,7 @@ export function replace_paragraph(){
     const $containerParagraph = d.querySelector(".About__description")
     
     //* Creación de elementos 
-    
+  
     const $desktopParagraph = d.createElement("p"); 
     $desktopParagraph.classList.add("About__description__p-desktop"); 
     $desktopParagraph.innerText = 
@@ -47,3 +47,6 @@ export function replace_paragraph(){
   })
 }
 
+while(a = 0){
+  console.log('Luis es el mejor');
+}
