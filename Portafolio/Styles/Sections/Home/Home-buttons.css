@@ -1,0 +1,34 @@
+@media screen and (min-width:901px) {
+    .Home__buttons{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    }
+}
+    
+@media screen and (max-width:900px) {
+    .Home__buttons{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    }
+}
+    
+@media screen and (max-width:600px) {
+    .Home__buttons{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    }
+}
+@media screen and (max-width:400px) {
+    .Home__buttons{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    }
+}

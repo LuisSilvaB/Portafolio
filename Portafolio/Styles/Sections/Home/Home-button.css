@@ -1,111 +1,270 @@
 @media screen and (min-width:901px) {
   .Home__button{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     width: 7vw;
     height: 4vh;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: var(--monserrat-font);
     font-weight: bold;
     font-size: 0.8vw;
+
+    transition: all 0.3s ease-in-out;
+  }
+  .Home__button-cv{
     color: rgb(77, 77, 77);
     background: #053B50;
     color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-  .Home__button:hover{
+  .Home__button-cv:hover{
     cursor: pointer;
     background-color: white;
     color: #053B50;
     border: 1px solid #053B50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-linkedin{
+    background:#0A66C2 ;
+    color: white;
+  }
+  .Home__button-linkedin:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-github{
+    background: #22272E;
+    color: white;
+  }
+  .Home__button-github:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #22272E;
+    border: solid 1px #22272E;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 }
 @media screen and (max-width:900px) {
-  .Home__button {
+  .Home__button{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     width: 7vw;
     height: 4vh;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: var(--monserrat-font);
     font-weight: bold;
     font-size: 0.8vw;
+
+    transition: all 0.3s ease-in-out;
+  }
+  .Home__button-cv{
     color: rgb(77, 77, 77);
     background: #053B50;
     color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-
-  .Home__button:hover {
+  .Home__button-cv:hover{
     cursor: pointer;
-    background-color:white; 
+    background-color: white;
     color: #053B50;
-    border-color: solid #053B50;
+    border: 1px solid #053B50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-linkedin{
+    background:#0A66C2 ;
+    color: white;
+  }
+  .Home__button-linkedin:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-github{
+    background: #22272E;
+    color: white;
+  }
+  .Home__button-github:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #22272E;
+    border: solid 1px #22272E;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 }
 @media screen and (max-width:600px) {
   .Home__button{
-    width: 30vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 7vw;
     height: 4vh;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: var(--monserrat-font);
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 0.8vw;
+
+    transition: all 0.3s ease-in-out;
+  }
+  .Home__button-cv{
     color: rgb(77, 77, 77);
     background: #053B50;
     color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-  .Home__button:hover{
+  .Home__button-cv:hover{
     cursor: pointer;
     background-color: white;
     color: #053B50;
-    border-color: solid #053B50;
+    border: 1px solid #053B50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-linkedin{
+    background:#0A66C2 ;
+    color: white;
+  }
+  .Home__button-linkedin:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-github{
+    background: #22272E;
+    color: white;
+  }
+  .Home__button-github:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #22272E;
+    border: solid 1px #22272E;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 }
 @media screen and (max-width:400px) {
   .Home__button{
-    width: 30vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 7vw;
     height: 4vh;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: var(--monserrat-font);
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 0.8vw;
+
+    transition: all 0.3s ease-in-out;
+  }
+  .Home__button-cv{
     color: rgb(77, 77, 77);
     background: #053B50;
     color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
-  .Home__button:hover{
+  .Home__button-cv:hover{
     cursor: pointer;
     background-color: white;
     color: #053B50;
-    border-color: solid #053B50;
+    border: 1px solid #053B50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-linkedin{
+    background:#0A66C2 ;
+    color: white;
+  }
+  .Home__button-linkedin:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-github{
+    background: #22272E;
+    color: white;
+  }
+  .Home__button-github:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #22272E;
+    border: solid 1px #22272E;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 }
 @media screen and (max-width:300px) {
   .Home__button{
-    width: 15vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 7vw;
     height: 4vh;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: var(--monserrat-font);
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 0.8vw;
+
+    transition: all 0.3s ease-in-out;
+  }
+  .Home__button-cv{
     color: rgb(77, 77, 77);
     background: #053B50;
     color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  }  
-  .Home__button:hover{
+  }
+  .Home__button-cv:hover{
     cursor: pointer;
     background-color: white;
     color: #053B50;
-    border-color: solid #053B50;
+    border: 1px solid #053B50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-linkedin{
+    background:#0A66C2 ;
+    color: white;
+  }
+  .Home__button-linkedin:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  }
+  .Home__button-github{
+    background: #22272E;
+    color: white;
+  }
+  .Home__button-github:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #22272E;
+    border: solid 1px #22272E;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 }

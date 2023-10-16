@@ -7,10 +7,10 @@ export const NavbarChangeBackground = (idNav) => {
         let scroll = w.scrollY; 
         console.log(scroll);
         if (scroll>100) {
-            NavBard.classList.add("Navbar-Change-Background")
+            NavBard.classList.add("Navbar-Change-shadow")
         }
         else {
-            NavBard.classList.remove("Navbar-Change-Background")
+            NavBard.classList.remove("Navbar-Change-shadow")
         }
     }
     )
