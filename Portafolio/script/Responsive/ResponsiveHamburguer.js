@@ -3,7 +3,7 @@ const w = window;
 
 
 // ! Resize responsive properties
-export default function Responsive(HamburguerID,NavarListID){
+export default function responsiveHamburguer(HamburguerID,NavarListID){
   const $Hamburguer = d.getElementById(HamburguerID)
   const $Navbar_list = d.getElementById(NavarListID)
   w.addEventListener("resize",(e)=>{   

@@ -1,4 +1,7 @@
 @media screen and (min-width:901px) {
+  html{
+    scroll-behavior: smooth;
+  }
   main{
     width: 100%;
     height: auto;
@@ -6,6 +9,9 @@
 }
 
 @media screen and (max-width:900px) {
+  html{
+    scroll-behavior: smooth;
+  }
   main{
     width: 100%;
     height: auto;
@@ -13,6 +19,9 @@
 }
 
 @media screen and (max-width:600px) {
+  html{
+    scroll-behavior: smooth;
+  }
   main{
     width: 100%;
     height: auto;
@@ -20,6 +29,9 @@
 }
 
 @media screen and (max-width:300px) {
+  html{
+    scroll-behavior: smooth;
+  }
   main{
     width: 100%;
     height: auto;

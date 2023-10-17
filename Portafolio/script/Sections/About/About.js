@@ -46,7 +46,3 @@ export function replace_paragraph(){
     }
   })
 }
-
-while(a = 0){
-  console.log('Luis es el mejor');
-}

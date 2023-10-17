@@ -1,0 +1,23 @@
+@media screen and (min-width: 901px) {
+    .Home__photo{
+        width: 20vw;
+    }
+    .Home__photo img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Home__photo{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Home__photo{
+        display: none;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Home__photo{
+        display: none;
+    }
+}

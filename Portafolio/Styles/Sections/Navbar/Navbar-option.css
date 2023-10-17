@@ -2,7 +2,7 @@
   .Navbar__option{
     box-sizing: border-box;
     color: #053B50;
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: var(--monserrat-font);
     font-weight: semibold;
     padding: 0.5rem;
@@ -14,7 +14,7 @@
 @media screen and (max-width:900px) {
   .Navbar__option{
     color: #053B50;
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: var(--monserrat-font);
     font-weight: semibold;
     padding: 0.3rem;
@@ -27,7 +27,7 @@
   .Navbar__option{
     width: auto;
     color: #053B50;
-    font-size: 7vw;
+    font-size: 2rem;
     font-family: var(--monserrat-font);
     font-weight: bold;
     padding: 0.3rem;
@@ -40,7 +40,7 @@
 @media screen and (max-width:300px) {
   .Navbar__option{
     color: #053B50;
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: var(--monserrat-font);
     font-weight: bold;
     padding: 0.3rem;

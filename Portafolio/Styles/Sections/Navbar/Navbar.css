@@ -37,20 +37,22 @@
 }
 @media screen and (max-width:600px) {
   .Navbar{
+    background-color: white;
     box-sizing: border-box;
     width: 100%;
-    height: 6.5vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 }
 @media screen and (max-width:300px) {
   .Navbar{
+    background-color: white;
     box-sizing: border-box;
     width: 100%;
-    height: 6.5vh;
+    height: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

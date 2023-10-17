@@ -12,7 +12,7 @@
 @media screen and (max-width:900px) {
   .Navbar__title{
     font-family: var(--lobster-font);
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     color: #053B50;
   }
   .Navbar__title:hover{
@@ -24,7 +24,7 @@
   .Navbar__title{
     z-index: 2;
     font-family: var(--lobster-font);
-    font-size: 6vw;
+    font-size: 1.7rem;
     color: #053B50;
     margin-left: 20px;
   }
@@ -36,7 +36,7 @@
 @media screen and (max-width:300px) {
   .Navbar__title{
     font-family: var(--lobster-font);
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     color: #053B50;
   }
   .Navbar__title:hover{
