@@ -1,0 +1,40 @@
+@media screen and (min-width:901px) {
+    .Home__wave_container{
+        overflow: hidden;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        padding: 0px;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:900px) {
+    .Home__wave_container{
+        overflow: hidden;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        padding: 0px;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:600px) {
+    .Home__wave_container{
+        overflow: hidden;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        padding: 0px;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:300px) {
+    .Home__wave_container{
+        overflow: hidden;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        padding: 0px;
+        bottom: 0px;
+    }
+}

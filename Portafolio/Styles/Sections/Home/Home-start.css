@@ -1,0 +1,41 @@
+@media screen and (min-width: 901px){
+    .Home__start-sun{
+        display: none;
+    }
+    .Home__start-moon{}
+}
+@media screen and (max-width: 900px){
+    .Home__start-sun{
+        width: 150px;
+        height: 150px;
+        background-color: #F7DF1E;
+        top: 10vh;
+        right: -40px;
+        border-radius: 100%;
+        position:absolute;
+    }
+    .Home__start-moon{}
+}
+@media screen and (max-width: 600px){
+    .Home__start-sun{
+        width: 150px;
+        height: 150px;
+        background-color: #F7DF1E;
+        top: 50vh;
+        right: -40px;
+        border-radius: 100%;
+        position:absolute;
+    }
+    .Home__start-moon{}
+}
+@media screen and (max-width: 300px){
+    .Home__start-sun{
+        width: 150px;
+        height: 150px;
+        background-color: #F7DF1E;
+        right: -40px;
+        border-radius: 100%;
+        position:absolute;
+    }
+    .Home__start-moon{}
+}

@@ -31,114 +31,99 @@
 
 @media screen and (max-width:900px) {
   .Home{
+    box-sizing: border-box;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40vw;
-    height: 40vh;
-    border: solid white;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  .Home p:first-child{
-    font-family: var(--monserrat-font);
-    font-size: 2vw;
-    color: white;
-  }
   .Home h2{
-    font-family: var(--sainsserif-font);
-    font-weight: bold;
-    color: white;
-    font-size: 6vw;
+    font-family: var(--monserrat-font);
+    font-weight: bolder;
+    color: #053B50;
+    font-size: 3rem;
+  }
+  .Home p:nth-child(2){
+    font-family: 'Bungee Shade';
+    font-size: 3rem;
+    color: #176B87;
   }
   .Home p:nth-child(3){
     font-family: var(--monserrat-font);
-    font-size: 1.4vw;
-    color: white;
-  }
-  .Home p:nth-child(4){
-    font-family: var(--monserrat-font);
-    font-size: 1vw;
-    color: white;
+    font-size: 1rem;
+    color: #053B50;
   }
 } 
 
 @media screen and (max-width:600px) {
   .Home{
-    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80vw;
-    height: 80vh;
-    border: solid white;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  .Home p:first-child{
-    font-family: var(--monserrat-font);
-    font-size: 7vw;
-    color: white;
-  }
   .Home h2{
-    font-family: var(--sainsserif-font);
-    font-weight: bold;
-    color: white;
-    font-size: 12vw;
+    width: 100%;
+    font-family: var(--monserrat-font);
+    font-weight: bolder;
+    color: #053B50;
+    font-size: 3rem;
+  }
+  .Home p:nth-child(2){
+    font-family: 'Bungee Shade';
+    font-size: 2rem;
+    color: #176B87;
   }
   .Home p:nth-child(3){
     font-family: var(--monserrat-font);
-    font-size: 4vw;
-    color: white;
-  }
-  .Home p:nth-child(4){
-    font-family: var(--monserrat-font);
-    font-size: 3vw;
-    color: white;
+    font-size: 1rem;
+    color: #053B50;
   }
 }
 
 @media screen and (max-width:300px) {
   .Home{
-    position: absolute;
+    box-sizing: border-box;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40vw;
-    height: 40vh;
-    border: solid white;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-  }
-  .Home p:first-child{
-    font-family: var(--monserrat-font);
-    font-size: 7vw;
-    color: white;
   }
   .Home h2{
-    font-family: var(--sainsserif-font);
-    font-weight: bold;
-    color: white;
-    font-size: 12vw;
+    font-family: var(--monserrat-font);
+    font-weight: bolder;
+    color: #053B50;
+    font-size: 1.5rem;
+  }
+  .Home p:nth-child(2){
+    font-family: 'Bungee Shade';
+    font-size: 1.1rem;
+    color: #176B87;
   }
   .Home p:nth-child(3){
     font-family: var(--monserrat-font);
-    font-size: 4vw;
-    color: white;
-  }
-  .Home p:nth-child(4){
-    font-family: var(--monserrat-font);
-    font-size: 3vw;
-    color: white;
+    font-size: 0.6rem;
+    color: #053B50;
   }
 } 

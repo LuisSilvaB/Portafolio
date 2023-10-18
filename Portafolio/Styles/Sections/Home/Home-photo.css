@@ -8,6 +8,10 @@
 }
 @media screen and (max-width: 900px) {
     .Home__photo{
+            flex: 1 1 auto;
+        display: none;
+    }
+    .Home__photo img{
         display: none;
     }
 }
@@ -15,9 +19,15 @@
     .Home__photo{
         display: none;
     }
+    .Home__photo img{
+        display: none;
+    }
 }
 @media screen and (max-width: 300px) {
     .Home__photo{
+        display: none;
+    }
+    .Home__photo img{
         display: none;
     }
 }

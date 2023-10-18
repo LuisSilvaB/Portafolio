@@ -9,30 +9,32 @@
 
 @media screen and (max-width:900px) {
   .Home__info {
+    flex: 1;
     display: flex;
     gap: 15px;
     flex-direction: column;
     width: 40vw;
-    border: solid;
   }
 }
 
 @media screen and (max-width:600px) {
   .Home__info {
+    flex: 1;
+    width: 100%;
     display: flex;
     gap: 15px;
     flex-direction: column;
     width: 40vw;
-    border: solid;
   }
 }
 
 @media screen and (max-width:300px) {
   .Home__info {
+    flex: 1;
+    width: 100%;
     display: flex;
     gap: 15px;
     flex-direction: column;
     width: 40vw;
-    border: solid;
   }
 }
