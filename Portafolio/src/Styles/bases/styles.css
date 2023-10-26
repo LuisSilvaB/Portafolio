@@ -36,4 +36,19 @@
         --lobster-font: 'Lobster', cursive;
         --vina-sans:'Vina Sans'; 
 
+        /* Colors */ 
+        --tarawera-50: rgba(235 255 255);
+        --tarawera-100: rgba(204 253 255);
+        --tarawera-200: rgba(159 249 255);
+        --tarawera-300: rgba(92 241 255);
+        --tarawera-400: rgba(19 224 253);
+        --tarawera-500: rgba(0 195 227);
+        --tarawera-600: rgba(0 154 190);
+        --tarawera-700: rgba(5 122 153);
+        --tarawera-800: rgba(14 99 124);
+        --tarawera-900: rgba(16 82 105);
+        --tarawera-950: rgba(4 59 80);
+
+
+
 }       

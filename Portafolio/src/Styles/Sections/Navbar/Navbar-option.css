@@ -1,15 +1,29 @@
 @media screen and (min-width:901px) {
   .Navbar__option{
+    width: 25%;
+    flex: 1;
     box-sizing: border-box;
-    color: #053B50;
     font-size: 1rem;
     font-family: var(--monserrat-font);
     font-weight: semibold;
     padding: 0.5rem;
-    transition: all 0.5s ease-in-out; 
+    transition: all 0.4s ease-in-out; 
     cursor: pointer;
+    color: #053B50;
+  }
+  .Navbar__option-dark{
+    color: white;
+  }
+  .light{
+    color: white;
+    border-radius: 100%;
+  } 
+  .dark{
+    color: var(--tarawera-950);
+    border-radius: 100%;
   }
 }
+
 
 @media screen and (max-width:900px) {
   .Navbar__option{
