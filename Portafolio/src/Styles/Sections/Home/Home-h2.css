@@ -1,0 +1,55 @@
+@media screen and (min-width: 901px) {
+    .Home__h2{
+        font-family: var(--monserrat-font);
+        font-weight: bolder;
+        font-size: 3.5rem;
+    }
+    .Home__h2-light{
+        color: #053B50;
+    }
+    .Home__h2-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Home__h2{
+        font-family: var(--monserrat-font);
+        font-weight: bolder;
+        color: #053B50;
+        font-size: 4rem;
+    }
+    .Home__h2-light{
+        color: #053B50;
+    }
+    .Home__h2-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Home__h2{
+        font-family: var(--monserrat-font);
+        font-weight: bolder;
+        color: #053B50;
+        font-size: 3rem;
+    }
+    .Home__h2-light{
+        color: #053B50;
+    }
+    .Home__h2-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Home__h2{
+        font-family: var(--monserrat-font);
+        font-weight: bolder;
+        color: #053B50;
+        font-size: 3rem;
+    }
+    .Home__h2-light{
+        color: #053B50;
+    }
+    .Home__h2-dark{
+        color: yellow;
+    }
+}

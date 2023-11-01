@@ -1,6 +1,8 @@
 @media screen and (min-width: 901px) {
     .Home__photo{
         width: 20vw;
+        background-color: white;
+        border-radius: 100%;
     }
     .Home__photo img{
         width: 100%;

@@ -35,6 +35,17 @@
     transition: all 0.1s ease-in-out; 
     cursor: pointer;
   }
+  .Navbar__option-dark{
+    color: white;
+  }
+  .light{
+    color: white;
+    border-radius: 100%;
+  } 
+  .dark{
+    color: var(--tarawera-950);
+    border-radius: 100%;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -49,6 +60,17 @@
     transition: all 0.1s ease-in-out; 
     cursor: pointer;
   }
+  .Navbar__option-dark{
+    color: white;
+  }
+  .light{
+    color: white;
+    border-radius: 100%;
+  } 
+  .dark{
+    color: var(--tarawera-950);
+    border-radius: 100%;
+  }
 }
 
 @media screen and (max-width:300px) {
@@ -60,5 +82,16 @@
     padding: 0.3rem;
     transition: all 0.1s ease-in-out; 
     cursor: pointer;
+  }
+  .Navbar__option-dark{
+    color: white;
+  }
+  .light{
+    color: white;
+    border-radius: 100%;
+  } 
+  .dark{
+    color: var(--tarawera-950);
+    border-radius: 100%;
   }
 }

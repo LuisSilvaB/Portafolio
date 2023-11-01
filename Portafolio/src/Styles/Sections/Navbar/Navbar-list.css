@@ -78,6 +78,12 @@
       transform: translate(0%);
     }
   }
+  .Navbar__list-light{
+    background-color: white;
+  }
+  .Navbar__list-dark{
+    background-color: #060c14;
+  }
 }
 
 @media screen and (max-width:300px) {
@@ -136,5 +142,11 @@
     100%{
       transform: translate(0%);
     }
+  }
+  .Navbar__list-light{
+    background-color: white;
+  }
+  .Navbar__list-dark{
+    background-color: #060c14;
   }
 }

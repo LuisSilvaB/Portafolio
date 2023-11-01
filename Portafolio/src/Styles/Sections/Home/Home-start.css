@@ -6,6 +6,7 @@
 }
 @media screen and (max-width: 900px){
     .Home__start-sun{
+        display: none;
         width: 150px;
         height: 150px;
         background-color: #F7DF1E;
@@ -18,6 +19,7 @@
 }
 @media screen and (max-width: 600px){
     .Home__start-sun{
+        display: none;
         width: 150px;
         height: 150px;
         background-color: #F7DF1E;
@@ -30,6 +32,7 @@
 }
 @media screen and (max-width: 300px){
     .Home__start-sun{
+        display: none;
         width: 150px;
         height: 150px;
         background-color: #F7DF1E;

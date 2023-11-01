@@ -21,6 +21,9 @@
   <link rel="stylesheet" href="./src/Styles/Sections/Navbar/Navbar-hamburgrer.css">
   <link rel="stylesheet" href="./src/Styles/Sections/Home/Home.css">
   <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-container.css">
+  <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-h2.css">
+  <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-first-p.css">
+  <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-second-p.css">
   <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-photo.css">
   <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-info.css">
   <link rel="stylesheet" href="./src/Styles/Sections/Home/Home-buttons.css">
@@ -79,14 +82,14 @@
     <header> 
       <nav class="Navbar Navbar-light" id="Nav">
         <div class="Navbar__container">
-          <h1 class="Navbar__title">Luis Silva</h1>
+          <h1 id="Navbar-Title" class="Navbar__title light-title-h1">Luis Silva</h1>
           <section>
-            <ul id="Navbar-list" class="Navbar__list">
+            <ul id="Navbar-list" class="Navbar__list Navbar__list-light">
               <li id="Nav-option" class="Navbar__option Navbar__option-light">Home</li>
               <li id="Nav-option" class="Navbar__option Navbar__option-light">Skills</li> 
               <li id="Nav-option" class="Navbar__option Navbar__option-light">Projects</li>
               <li id="Nav-option" class="Navbar__option Navbar__option-light">Contact</li>
-              <li id = 'button__theme' class="Navbar__option light">
+              <li id='button__theme' class="Navbar__option light">
 
               </li>
             </ul>
@@ -98,12 +101,13 @@
           </section>
         </div>
       </nav>
-      <section class="Home">
+      <section id="Home" class="Home Home-light">
         <div class="Home__container">
           <div class="Home__info">
-            <h2>Hi, I'm Luis Silva</h2>
-            <p>WEB DEVELOPER</p> 
-            <p>Passionate about learning, willing to face new technological challenges.</p>
+            <h2 id="Home-h2" class="Home__h2 Home__h2-light">Hi, I'm Luis Silva</h2>
+            <p id="Home-first-p" class="Home__first_p Home__first_p-light">WEB DEVELOPER</p> 
+            <p id="Home-second-p" class="Home__second_p Home__second_p-light">
+              "I'm a passionate systems student with a true enthusiasm for computer science. I love diving into the world of code and crafting creative solutions for challenging technological problems."</p>
             <div class="Home__buttons">
               <button class="Home__button Home__button-cv">Download CV
               </button>
@@ -124,9 +128,7 @@
           </div>
         </div>
         <div class="Home__start-sun"></div>
-        <div class="Home__wave_container">
-          <img class="Home__wave_img" src="./src/img/Home/Wave.png" alt="wave">
-        </div>
+
       </section>
     </header>
     <main>

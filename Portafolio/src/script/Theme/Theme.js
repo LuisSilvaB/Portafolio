@@ -1,25 +1,33 @@
-import { NavbarChangeThemeNavbar } from '../Navbar/Navbar.js'; 
-import { NodeButtomLight , NodeButtomDark  } from "../../constants/Constants.js";
+import { NodeButtomLight, NodeButtomDark } from '../../constants/Constants.js';45
+import { NavbarChangeThemeNavbar } from '../Navbar/Navbar.js';
+import { ChangeThemeHome } from '../Sections/Home/HomeTheme.js';
 
-const d = document; 
-const w = window; 
-export const ChangeTheme = (idButtomTheme,idNav, idNavOption) => {
-  const buttomTheme = d.getElementById(idButtomTheme); 
-  d.addEventListener('click', (e)=>{
-  if (e.target === buttomTheme || buttomTheme.childNodes[1].lastChild) {
-    if (buttomTheme.classList[1] === "light") {
-      buttomTheme.replaceChild(NodeButtomLight, NodeButtomDark)
-      buttomTheme.classList.replace("light", "dark")
-      NavbarChangeThemeNavbar(idNav, idNavOption); 
-    }
-    else if (buttomTheme.classList[1] === "dark") {
-      buttomTheme.replaceChild(NodeButtomDark, NodeButtomLight)
-      buttomTheme.classList.replace("dark", "light")
-      NavbarChangeThemeNavbar(idNav, idNavOption); 
-    }
-  }
- })
-}
+export const ChangeTheme = (idButtomTheme, idNav, idNavOption) => {
+  const buttomTheme = document.getElementById(idButtomTheme);
 
-const darkTheme = () => {}
-const lightTheme = () => {}
+  const toggleTheme = () => {
+    buttomTheme.classList.toggle('light');
+    buttomTheme.classList.toggle('dark');
+    buttomTheme.replaceChild(
+      buttomTheme.classList.contains('light') ? NodeButtomLight : NodeButtomDark,
+      buttomTheme.classList.contains('light') ? NodeButtomDark : NodeButtomLight
+    );
+    NavbarChangeThemeNavbar(idNav, idNavOption);
+  };
+
+  buttomTheme.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (e.target.matches('.light, .dark, .svgDark, .svgLight, .pathDark, .pathLight')) {
+      toggleTheme();
+      ChangeThemeHome();
+    }
+  });
+};
+
+const darkTheme = () => {
+  
+};
+
+const lightTheme = () => {
+  // Puedes implementar esta función si es necesario.
+};

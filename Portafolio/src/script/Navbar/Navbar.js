@@ -2,6 +2,8 @@ import { NodeButtomDark, NodeButtomLight } from "../../constants/Constants.js";
 
 const d = document; 
 const w = window;  
+const titleNav = d.getElementById("Navbar-Title")
+const $IdNavList = d.getElementById("Navbar-list"); 
 
 const NavbarChangeBackground = (idNav) => {
     const NavBard = d.getElementById(idNav)
@@ -37,6 +39,10 @@ const NavbarChangeThemeToDark = (Nav,NavOption) => {
         NavOption.forEach((el)=>{
             el.classList.replace("Navbar__option-light", "Navbar__option-dark")
         }) 
+        titleNav.classList.toggle("dark-title-h1")
+        titleNav.classList.toggle("light-title-h1")
+        $IdNavList.classList.toggle("Navbar__list-light")
+        $IdNavList.classList.toggle("Navbar__list-dark")
 }   
 // Cambiar el tema de navbar a light
 const NavbarChangeThemeToLight = (Nav,NavOption) => {
@@ -44,6 +50,10 @@ const NavbarChangeThemeToLight = (Nav,NavOption) => {
         NavOption.forEach((el)=>{
             el.classList.replace("Navbar__option-dark","Navbar__option-light")
         })
+        titleNav.classList.toggle("light-title-h1")
+        titleNav.classList.toggle("dark-title-h1")
+        $IdNavList.classList.toggle("Navbar__list-dark")
+        $IdNavList.classList.toggle("Navbar__list-light")
 }
 
 export {NavbarChangeBackground, NavbarChangeThemeNavbar, CreateButtomTheme}

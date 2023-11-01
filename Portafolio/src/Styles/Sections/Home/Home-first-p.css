@@ -1,0 +1,51 @@
+@media screen and (min-width: 901px) {
+    .Home__first_p{
+        font-family: 'Bungee Shade';
+        font-size: 3rem;
+    }
+    .Home__first_p-light{
+        color: #176B87;
+    }
+    .Home__first_p-dark{
+        color: white;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Home__first_p{
+        font-family: 'Bungee Shade';
+        font-size: 3.5rem;
+        color: #176B87; 
+    }
+    .Home__first_p-light{
+        color: #176B87;
+    }
+    .Home__first_p-dark{
+        color: white;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Home__first_p{
+        font-family: 'Bungee Shade';
+        font-size: 2.5rem;
+        color: #176B87; 
+    }
+    .Home__first_p-light{
+        color: #176B87;
+    }
+    .Home__first_p-dark{
+        color: white;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Home__first_p{
+        font-family: 'Bungee Shade';
+        font-size: 2.5rem;
+        color: #176B87; 
+    }
+    .Home__first_p-light{
+        color: #176B87;
+    }
+    .Home__first_p-dark{
+        color: white;
+    }
+}

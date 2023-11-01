@@ -10,22 +10,13 @@
     align-items: center;
     justify-content: center;
     gap: 0px;
+    transition: all 0.4s ease-in-out;
   }
-  .Home h2{
-    font-family: var(--monserrat-font);
-    font-weight: bolder;
-    color: #053B50;
-    font-size: 4rem;
+  .Home-light{
+    background-color: white;
   }
-  .Home p:nth-child(2){
-    font-family: 'Bungee Shade';
-    font-size: 3.5rem;
-    color: #176B87;
-  }
-  .Home p:nth-child(3){
-    font-family: var(--monserrat-font);
-    font-size: 1rem;
-    color: #053B50;
+  .Home-dark{
+    background-color: #060c14;
   }
 } 
 
@@ -44,21 +35,11 @@
     align-items: center;
     gap: 20px;
   }
-  .Home h2{
-    font-family: var(--monserrat-font);
-    font-weight: bolder;
-    color: #053B50;
-    font-size: 3rem;
+  .Home-light{
+    background-color: white;
   }
-  .Home p:nth-child(2){
-    font-family: 'Bungee Shade';
-    font-size: 3rem;
-    color: #176B87;
-  }
-  .Home p:nth-child(3){
-    font-family: var(--monserrat-font);
-    font-size: 1rem;
-    color: #053B50;
+  .Home-dark{
+    background-color: #060c14;
   }
 } 
 
@@ -77,22 +58,11 @@
     align-items: center;
     gap: 20px;
   }
-  .Home h2{
-    width: 100%;
-    font-family: var(--monserrat-font);
-    font-weight: bolder;
-    color: #053B50;
-    font-size: 3rem;
+  .Home-light{
+    background-color: white;
   }
-  .Home p:nth-child(2){
-    font-family: 'Bungee Shade';
-    font-size: 2rem;
-    color: #176B87;
-  }
-  .Home p:nth-child(3){
-    font-family: var(--monserrat-font);
-    font-size: 1rem;
-    color: #053B50;
+  .Home-dark{
+    background-color: #060c14;
   }
 }
 
@@ -110,20 +80,10 @@
     justify-content: center;
     align-items: center;
   }
-  .Home h2{
-    font-family: var(--monserrat-font);
-    font-weight: bolder;
-    color: #053B50;
-    font-size: 1.5rem;
+  .Home-light{
+    background-color: white;
   }
-  .Home p:nth-child(2){
-    font-family: 'Bungee Shade';
-    font-size: 1.1rem;
-    color: #176B87;
-  }
-  .Home p:nth-child(3){
-    font-family: var(--monserrat-font);
-    font-size: 0.6rem;
-    color: #053B50;
+  .Home-dark{
+    background-color: #060c14;
   }
 } 

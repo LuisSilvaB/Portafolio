@@ -2,21 +2,32 @@
   .Navbar__title{
     font-family: var(--lobster-font);
     font-size: 1.7vw;
-    color: #053B50;
   }
   .Navbar__title:hover{
     cursor: pointer;
+  }
+  .dark-title-h1{
+    color: yellow;
+  }
+  .light-title-h1{
+    color: #053B50;
   }
 }
 
 @media screen and (max-width:900px) {
   .Navbar__title{
     font-family: var(--lobster-font);
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: #053B50;
   }
   .Navbar__title:hover{
     cursor: pointer;
+  }
+  .dark-title-h1{
+    color: yellow;
+  }
+  .light-title-h1{
+    color: #053B50;
   }
 }
 
@@ -24,22 +35,34 @@
   .Navbar__title{
     z-index: 2;
     font-family: var(--lobster-font);
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: #053B50;
     margin-left: 20px;
   }
   .Navbar__title:hover{
     cursor: pointer;
   }
+  .dark-title-h1{
+    color: yellow;
+  }
+  .light-title-h1{
+    color: #053B50;
+  }
 }
 
 @media screen and (max-width:300px) {
   .Navbar__title{
     font-family: var(--lobster-font);
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: #053B50;
   }
   .Navbar__title:hover{
     cursor: pointer;
+  }
+  .dark-title-h1{
+    color: yellow;
+  }
+  .light-title-h1{
+    color: #053B50;
   }
 }

@@ -19,10 +19,8 @@
   .Navbar-light{
     background-color: white;
   }
-  .light-active{
-  }
   .Navbar-dark{
-    background-color: var(--tarawera-950);
+    background-color: #060c14;
   }
 }
 @media screen and (max-width:900px) {
@@ -43,6 +41,12 @@
   .Navbar-Change-shadow{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+  .Navbar-light{
+    background-color: white;
+  }
+  .Navbar-dark{
+    background-color: #060c14;
+  }
 }
 @media screen and (max-width:600px) {
   .Navbar{
@@ -58,6 +62,12 @@
   .Navbar-Change-shadow{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+  .Navbar-light{
+    background-color: white;
+  }
+  .Navbar-dark{
+    background-color: #060c14;
+  }
 }
 @media screen and (max-width:300px) {
   .Navbar{
@@ -72,5 +82,11 @@
   }
   .Navbar-Change-shadow{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .Navbar-light{
+    background-color: white;
+  }
+  .Navbar-dark{
+    background-color: #060c14;
   }
 }
