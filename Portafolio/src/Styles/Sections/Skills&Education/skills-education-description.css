@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .skills-education__description{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #176B87;
+        font-family: var(--monserrat-font);
+    }
+}
+@media screen and (max-width: 900px){
+    .skills-education__description{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #176B87;
+        font-family: var(--monserrat-font);
+    }
+}
+@media screen and (max-width: 600px){
+    .skills-education__description{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #176B87;
+        font-family: var(--monserrat-font);
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__description{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #176B87;
+        font-family: var(--monserrat-font);
+    }
+}

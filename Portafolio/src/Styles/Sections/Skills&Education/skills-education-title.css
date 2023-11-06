@@ -1,0 +1,56 @@
+@media screen and (min-width: 901px){
+    .skills-education__title{
+        font-size: 4rem;
+        font-family: var(--monserrat-font);
+        font-weight: bold;
+        color: #053B50;
+    }
+    .skills-education__title_fspan{
+        color: #E0D0C0;
+    }
+    .skills-education__title_Sspan{
+        color: #176B87;
+    }
+}
+@media screen and (max-width: 900px){
+    .skills-education__title{
+        font-size: 3rem;
+        font-family: var(--monserrat-font);
+        font-weight: bold;
+        color: #053B50;
+    }
+    .skills-education__title_fspan{
+        color: #E0D0C0;
+    }
+    .skills-education__title_Sspan{
+        color: #176B87;
+    }
+}
+@media screen and (max-width: 600px){
+    .skills-education__title{
+        font-size: 3rem;
+        font-family: var(--monserrat-font);
+        font-weight: bold;
+        color: #053B50;
+    }
+    .skills-education__title_fspan{
+        color: #E0D0C0;
+    }
+    .skills-education__title_Sspan{
+        color: #176B87;
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__title{
+        font-size: 3.5rem;
+        font-family: var(--monserrat-font);
+        font-weight: bold;
+        color: #053B50;
+    }
+    .skills-education__title_fspan{
+        color: #E0D0C0;
+    }
+    .skills-education__title_Sspan{
+        color: #176B87;
+    }
+}

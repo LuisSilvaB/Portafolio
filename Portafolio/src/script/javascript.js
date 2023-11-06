@@ -10,7 +10,7 @@ d.addEventListener("DOMContentLoaded", (e)=>{
   Hamburguer("Navbar-button",".list","Navbar-list"); 
   responsiveHamburguer("Navbar-button","Navbar-list"); 
   //About
-  replace_paragraph(); 
+  // replace_paragraph(); 
   
   //? Navbar
   CreateButtomTheme("button__theme"); 

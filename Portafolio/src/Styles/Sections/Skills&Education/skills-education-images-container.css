@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .skills-education__images_container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 900px){
+    .skills-education__images_container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 600px){
+    .skills-education__images_container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__images_container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}

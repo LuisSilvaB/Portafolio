@@ -1,0 +1,52 @@
+@media screen and (min-width: 901px){
+    .skills-education__education_items_container{
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 900px){
+    .skills-education__education_items_container{
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .skills-education__education_items_container{
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__education_items_container{
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+    }
+}

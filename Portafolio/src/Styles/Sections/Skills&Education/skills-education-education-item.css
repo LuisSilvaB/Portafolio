@@ -1,0 +1,28 @@
+@media screen and (min-width: 901px){
+    .skills-education__education_item{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 900px){
+    .skills-education__education_item{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 600px){
+    .skills-education__education_item{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__education_item{
+        position: relative;
+        display: flex;     
+        flex-direction: row;
+    }
+}

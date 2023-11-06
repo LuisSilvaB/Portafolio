@@ -1,7 +1,9 @@
 @media screen and (min-width:901px) {
   .Navbar__option{
-    width: 25%;
-    flex: 1;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
     box-sizing: border-box;
     font-size: 1rem;
     font-family: var(--monserrat-font);
@@ -21,6 +23,11 @@
   .dark{
     color: var(--tarawera-950);
     border-radius: 100%;
+  }
+  .Navbar__option_button {
+    border: none;
+    background-color: transparent;
+    outline: none;
   }
 }
 
@@ -45,6 +52,11 @@
   .dark{
     color: var(--tarawera-950);
     border-radius: 100%;
+  }
+  .Navbar__option_button {
+    border: none;
+    background-color: transparent;
+    outline: none;
   }
 }
 
@@ -93,5 +105,10 @@
   .dark{
     color: var(--tarawera-950);
     border-radius: 100%;
+  }
+  .Navbar__option_button {
+    border: none;
+    background-color: transparent;
+    outline: none;
   }
 }

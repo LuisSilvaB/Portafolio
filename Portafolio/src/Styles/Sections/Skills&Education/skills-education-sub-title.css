@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .skills-education__sub-title{
+        font-weight: bolder;
+        font-size: 2rem;
+        font-family: var(--monserrat-font);
+        color: #053B50;
+    }
+}
+@media screen and (max-width: 900px){
+    .skills-education__sub-title{
+        font-weight: bolder;
+        font-size: 2rem;
+        font-family: var(--monserrat-font);
+        color: #053B50;
+    }
+}
+@media screen and (max-width: 600px){
+    .skills-education__sub-title{
+        font-weight: bolder;
+        font-size: 2rem;
+        font-family: var(--monserrat-font);
+        color: #053B50;
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__sub-title{
+        font-weight: bolder;
+        font-size: 2rem;
+        font-family: var(--monserrat-font);
+        color: #053B50;
+    }
+}

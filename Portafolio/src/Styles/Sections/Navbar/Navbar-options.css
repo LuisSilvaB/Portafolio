@@ -1,0 +1,22 @@
+@media screen and (min-width: 901px) {
+    .Navbar__options{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Navbar__options{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Navbar__options{
+        width: 80%;
+        display: flex;
+        justify-content: end;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Navbar__options{
+        width: 80%;
+    }
+}
