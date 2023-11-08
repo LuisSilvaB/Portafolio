@@ -31,7 +31,7 @@
         box-sizing: border-box;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         width: 100%;
-        padding: 30px;
+        padding: 15px;
         border-radius: 10px;
         display: flex;
         gap: 30px;
@@ -45,7 +45,7 @@
         box-sizing: border-box;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         width: 100%;
-        padding: 30px;
+        padding: 15px;
         border-radius: 10px;
         display: flex;
         gap: 30px;
