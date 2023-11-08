@@ -1,52 +1,248 @@
-@media screen and (min-width: 901px){
-    .skills-education__education_items_container{
+@media screen and (min-width: 1024px){
+    .skills-education__education_items_container-light{
         box-sizing: border-box;
-        padding-top: 20px;
-        width: 80%;
-        height: 50vh;
+        width: 90%;
+        height: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
         overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar{
+        background: lightgray;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 20px;
+    }
+    .skills-education__education_items_container-dark{
+        box-sizing: border-box;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
+        border-radius: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 901px){
+    .skills-education__education_items_container-light{
+        box-sizing: border-box;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 20px;
+    }
+    .skills-education__education_items_container-dark{
+        box-sizing: border-box;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
+        border-radius: 20px;
+        height: 20px;
     }
 }
 @media screen and (max-width: 900px){
-    .skills-education__education_items_container{
+    .skills-education__education_items_container-light{
         box-sizing: border-box;
-        padding-top: 20px;
         width: 80%;
-        height: 50vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
         overflow: auto;
+        transition: all 0.4s ease-in-out;
+
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 20px;
+    }
+    .skills-education__education_items_container-dark{
+        box-sizing: border-box;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
+        border-radius: 20px;
+        height: 20px;
     }
 }
 @media screen and (max-width: 600px){
-    .skills-education__education_items_container{
+    .skills-education__education_items_container-light{
         box-sizing: border-box;
-        padding-top: 40px;
         width: 100%;
-        height: 50vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
         overflow: auto;
     }
-}
-@media screen and (max-width: 300px){
-    .skills-education__education_items_container{
+    .skills-education__education_items_container-light::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 20px;
+    }
+    .skills-education__education_items_container-dark{
         box-sizing: border-box;
-        padding-top: 20px;
         width: 100%;
-        height: 50vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
         overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
+        border-radius: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 300px){
+    .skills-education__education_items_container-light{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-light::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 20px;
+    }
+    .skills-education__education_items_container-dark{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        overflow: auto;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar{
+        background: white;
+        height: 20px;
+        width: 10px;
+        border-radius: 20px;
+
+    }
+    .skills-education__education_items_container-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
+        border-radius: 20px;
+        height: 20px;
     }
 }

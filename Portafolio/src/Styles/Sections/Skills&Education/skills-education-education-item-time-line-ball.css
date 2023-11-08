@@ -1,36 +1,72 @@
 @media screen and (min-width: 901px){
-    .skills-education__education_item_time-line-ball{
+    .skills-education__education_item_time-line-ball-light{
         position: absolute;
         width: 20px;
         height: 20px;
         border-radius: 100%;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_item_time-line-ball-dark{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
     }
 }
 @media screen and (max-width: 900px){
-    .skills-education__education_item_time-line-ball{
+    .skills-education__education_item_time-line-ball-light{
         position: absolute;
         width: 20px;
         height: 20px;
         border-radius: 100%;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_item_time-line-ball-dark{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
     }
 }
 @media screen and (max-width: 600px){
-    .skills-education__education_item_time-line-ball{
+    .skills-education__education_item_time-line-ball-light{
         position: absolute;
         width: 20px;
         height: 20px;
         border-radius: 100%;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_item_time-line-ball-dark{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
     }
 }
 @media screen and (max-width: 300px){
-    .skills-education__education_item_time-line-ball{
+    .skills-education__education_item_time-line-ball-light{
         position: absolute;
         width: 20px;
         height: 20px;
         border-radius: 100%;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
+     .skills-education__education_item_time-line-ball-dark{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: yellow;
+    }
+        transition: all 0.4s ease-in-out;
     }
 }

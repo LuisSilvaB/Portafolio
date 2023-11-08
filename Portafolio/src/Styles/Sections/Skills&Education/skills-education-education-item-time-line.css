@@ -1,40 +1,71 @@
 @media screen and (min-width: 901px){
-    .skills-education__education_item_time-line{
+    .skills-education__education_item_time-line-light{
         position: absolute;
-        
         width: 5px;
         height: 180%;
         border-radius: 20px;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_item_time-line-dark{
+        position: absolute;
+        width: 5px;
+        height: 180%;
+        border-radius: 20px;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
     }
 }
 @media screen and (max-width: 900px){
-    .skills-education__education_item_time-line{
+    .skills-education__education_item_time-line-light{
         position: absolute;
-        
         width: 5px;
         height: 180%;
         border-radius: 20px;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
+    }
+    .skills-education__education_item_time-line-dark{
+        position: absolute;
+        width: 5px;
+        height: 180%;
+        border-radius: 20px;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
     }
 }
 @media screen and (max-width: 600px){
-    .skills-education__education_item_time-line{
+    .skills-education__education_item_time-line-light{
         position: absolute;
-        
         width: 5px;
         height: 180%;
         border-radius: 20px;
         background-color: #BFD7E1;
+        transition: all 0.4s ease-in-out;
     }
-}
-@media screen and (max-width: 300px){
-    .skills-education__education_item_time-line{
+    .skills-education__education_item_time-line-dark{
         position: absolute;
-        
         width: 5px;
         height: 180%;
         border-radius: 20px;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
+    }
+}
+@media screen and (max-width: 300px){-light
+    .skills-education__education_item_time-line{
+        position: absolute;
+        width: 5px;
+        height: 180%;
+        border-radius: 20px;
+    }
+    .skills-education__education_item_time-dark-line{
+        position: absolute;
+        width: 5px;
+        height: 180%;
+        border-radius: 20px;
+        background-color: yellow;
+        transition: all 0.4s ease-in-out;
         background-color: #BFD7E1;
     }
 }

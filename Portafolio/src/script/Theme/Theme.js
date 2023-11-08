@@ -1,6 +1,7 @@
 import { NodeButtomLight, NodeButtomDark } from '../../constants/Constants.js';45
 import { NavbarChangeThemeNavbar } from '../Navbar/Navbar.js';
 import { ChangeThemeHome } from '../Sections/Home/HomeTheme.js';
+import { ChangeThemeSkillsEducation } from '../Sections/SkillsEducation/S&ETheme.js';
 
 export const ChangeTheme = (idButtomTheme, idNav, idNavOption) => {
   const buttomTheme = document.getElementById(idButtomTheme);
@@ -10,14 +11,15 @@ export const ChangeTheme = (idButtomTheme, idNav, idNavOption) => {
     buttomTheme.classList.toggle('dark');
     buttomTheme.replaceChild(
       buttomTheme.classList.contains('light') ? NodeButtomLight : NodeButtomDark,
-      buttomTheme.classList.contains('light') ? NodeButtomDark : NodeButtomLight
-    );
-  };
-  
-  buttomTheme.addEventListener('click', (e) => {
-    toggleTheme();
-    NavbarChangeThemeNavbar(idNav, idNavOption);
-    ChangeThemeHome();
+      buttomTheme.classList.contains('light') ? NodeButtomDark : NodeButtomLight,
+      );
+    };
+    
+    buttomTheme.addEventListener('click', (e) => {
+      toggleTheme();
+      NavbarChangeThemeNavbar(idNav, idNavOption);
+      ChangeThemeHome();
+      ChangeThemeSkillsEducation();
   });
 };
 
