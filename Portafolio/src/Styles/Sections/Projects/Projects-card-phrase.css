@@ -1,0 +1,28 @@
+@media screen and (min-width: 901px){
+    .Projects__card_phrase-light{
+        font-size: 0.8rem;
+        font-family: var(--monserrat-font);
+    }
+    Projects__card_phrase-dark{}
+}
+@media screen and (max-width: 900px){
+    .Projects__card_phrase-light{
+        font-size: 0.8rem;
+        font-family: var(--monserrat-font);
+    }
+    Projects__card_phrase-dark{}
+}
+@media screen and (max-width: 600px){
+    .Projects__card_phrase-light{
+        font-size: 0.8rem;
+        font-family: var(--monserrat-font);
+    }
+    Projects__card_phrase-dark{}
+}
+@media screen and (max-width: 300px){
+    .Projects__card_phrase-light{
+        font-size: 0.8rem;
+        font-family: var(--monserrat-font);
+    }
+    Projects__card_phrase-dark{}
+}

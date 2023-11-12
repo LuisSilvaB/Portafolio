@@ -1,0 +1,36 @@
+@media screen and (min-width: 901px){
+    .Projects__card_title-light{
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: var(--monserrat-font);
+        color: #053b50;
+    }
+    .Projects__card_title-dark{}
+}
+@media screen and (max-width: 900px){
+    .Projects__card_title-light{
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: var(--monserrat-font);
+        color: #053b50;
+    }
+    .Projects__card_title-dark{}
+}
+@media screen and (max-width: 600px){
+    .Projects__card_title-light{
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: var(--monserrat-font);
+        color: #053b50;
+    }
+    .Projects__card_title-dark{}
+}
+@media screen and (max-width: 300px){
+    .Projects__card_title-light{
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: var(--monserrat-font);
+        color: #053b50;
+    }
+    .Projects__card_title-dark{}
+}

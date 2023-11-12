@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .Projects__title_span-light{
+        color: #053b50;
+    }
+    .Projects__title_span-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 900px){
+    .Projects__title_span-light{
+        color: #053b50;
+    }
+    .Projects__title_span-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 600px){
+    .Projects__title_span-light{
+        color: #053b50;
+    }
+    .Projects__title_span-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 300px){
+    .Projects__title_span-light{
+        color: #053b50;
+    }
+    .Projects__title_span-dark{
+        color: yellow;
+    }
+}

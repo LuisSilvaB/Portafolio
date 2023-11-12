@@ -1,0 +1,28 @@
+@media screen and (min-width: 901px){
+    .Projects__card_container_buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 900px){
+    .Projects__card_container_buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .Projects__card_container_buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 300px){
+    .Projects__card_container_buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}

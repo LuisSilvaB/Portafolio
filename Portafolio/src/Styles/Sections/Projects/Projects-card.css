@@ -1,0 +1,64 @@
+@media screen and (min-width: 901px){
+    .Projects__card{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;        
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 0.4s ease-in-out;
+    }
+    .Projects__card:hover{
+        transform: scale(1.05);
+    }
+}
+@media screen and (max-width: 900px){
+    .Projects__card{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;        
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 0.4s ease-in-out;
+    }
+    .Projects__card:hover{
+        transform: scale(1.05);
+    }
+}
+@media screen and (max-width: 600px){
+    .Projects__card{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;        
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 0.4s ease-in-out;
+    }
+    .Projects__card:hover{
+        transform: scale(1.05);
+    }
+}
+@media screen and (max-width: 300px){
+    .Projects__card{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;        
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 0.4s ease-in-out;
+    }
+    .Projects__card:hover{
+        transform: scale(1.05);
+    }
+}

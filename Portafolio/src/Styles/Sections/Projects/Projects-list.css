@@ -1,0 +1,97 @@
+@media screen and (min-width: 901px){
+    .Projects__list{
+        padding-left: 20px;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-track{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-corner{
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 900px){
+    .Projects__list{
+        padding-left: 20px;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-track{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-corner{
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .Projects__list{
+        padding-left: 20px;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-track{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-corner{
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 300px){
+    .Projects__list{
+        padding-left: 20px;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-track{
+        color: white;
+    }
+    .Projects__list::-webkit-scrollbar-corner{
+        border-radius: 20px;
+    }
+}

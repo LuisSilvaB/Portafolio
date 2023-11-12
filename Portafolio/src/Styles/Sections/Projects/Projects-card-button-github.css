@@ -1,0 +1,88 @@
+@media screen and (min-width: 901px){
+    .Projects__card_button-github-light{
+        box-sizing: border-box;
+        font-family: var(--monserrat-font);
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        background-color: #053B50;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        box-shadow: rgb(38, 57, 77) 0px 4px 10px -1px;
+        transition: all 0.2s ease-in-out;
+    }
+    .Projects__card_button-github-light:active{
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 900px){
+    .Projects__card_button-github-light{
+        box-sizing: border-box;
+        font-family: var(--monserrat-font);
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        background-color: #053B50;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        box-shadow: rgb(38, 57, 77) 0px 4px 10px -1px;
+        transition: all 0.2s ease-in-out;
+    }
+    .Projects__card_button-github-light:active{
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .Projects__card_button-github-light{
+        box-sizing: border-box;
+        font-family: var(--monserrat-font);
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        background-color: #053B50;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        box-shadow: rgb(38, 57, 77) 0px 4px 10px -1px;
+        transition: all 0.2s ease-in-out;
+    }
+    .Projects__card_button-github-light:active{
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 300px){
+    .Projects__card_button-github-light{
+        box-sizing: border-box;
+        font-family: var(--monserrat-font);
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        background-color: #053B50;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        box-shadow: rgb(38, 57, 77) 0px 4px 10px -1px;
+        transition: all 0.2s ease-in-out;
+    }
+    .Projects__card_button-github-light:active{
+        box-shadow: none;
+    }
+}
