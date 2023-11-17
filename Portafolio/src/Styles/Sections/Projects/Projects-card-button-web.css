@@ -1,6 +1,7 @@
 @media screen and (min-width: 901px){
     .Projects__card_button-web-light{
         box-sizing: border-box;
+        text-decoration: none;
         font-family: var(--monserrat-font);
         font-size: 0.8rem;
         color: #053B50;
@@ -19,11 +20,15 @@
     }
     .Projects__card_button-web-light:active{
         box-shadow: none;
+    }
+    .Projects__card_button-web-light:hover{
+        cursor: pointer;
     }
 }
 @media screen and (max-width: 900px){
     .Projects__card_button-web-light{
         box-sizing: border-box;
+        text-decoration: none;
         font-family: var(--monserrat-font);
         font-size: 0.8rem;
         color: #053B50;
@@ -43,10 +48,13 @@
     .Projects__card_button-web-light:active{
         box-shadow: none;
     }
+    .Projects__card_button-web-light:hover{
+    cursor: pointer;}
 }
 @media screen and (max-width: 600px){
     .Projects__card_button-web-light{
         box-sizing: border-box;
+        text-decoration: none;
         font-family: var(--monserrat-font);
         font-size: 0.8rem;
         color: #053B50;
@@ -66,10 +74,13 @@
     .Projects__card_button-web-light:active{
         box-shadow: none;
     }
+    .Projects__card_button-web-light:hover{
+    cursor: pointer;}
 }
 @media screen and (max-width: 300px){
     .Projects__card_button-web-light{
         box-sizing: border-box;
+        text-decoration: none;
         font-family: var(--monserrat-font);
         font-size: 0.8rem;
         color: #053B50;
@@ -89,4 +100,6 @@
     .Projects__card_button-web-light:active{
         box-shadow: none;
     }
+    .Projects__card_button-web-light:hover{
+    cursor: pointer;}
 }

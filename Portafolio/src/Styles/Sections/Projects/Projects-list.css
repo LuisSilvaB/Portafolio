@@ -3,25 +3,29 @@
         padding-left: 20px;
         box-sizing: border-box;
         position: relative;
+        padding: 20px;
         width: 100%;
         height: 60vh;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        align-items: center;
         gap: 20px;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-track{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-corner{
+    .Projects__list::-webkit-scrollbar{
+        background: lightgray;
+        height: 10px;
+        width: 10px;
         border-radius: 20px;
     }
+    .Projects__list::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
+    }
+
 }
 @media screen and (max-width: 900px){
     .Projects__list{
@@ -33,18 +37,20 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        align-items: center;
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-track{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-corner{
+    .Projects__list::-webkit-scrollbar{
+        background: lightgray;
+        height: 10px;
+        width: 10px;
         border-radius: 20px;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
     }
 }
 @media screen and (max-width: 600px){
@@ -57,18 +63,20 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        align-items: center;
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-track{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-corner{
+    .Projects__list::-webkit-scrollbar{
+        background: lightgray;
+        height: 10px;
+        width: 10px;
         border-radius: 20px;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
     }
 }
 @media screen and (max-width: 300px){
@@ -81,17 +89,19 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        align-items: center;
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-track{
-        color: white;
-    }
-    .Projects__list::-webkit-scrollbar-corner{
+    .Projects__list::-webkit-scrollbar{
+        background: lightgray;
+        height: 10px;
+        width: 10px;
         border-radius: 20px;
+    }
+    .Projects__list::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
     }
 }

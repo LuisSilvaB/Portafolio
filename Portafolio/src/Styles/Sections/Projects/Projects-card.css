@@ -2,10 +2,11 @@
     .Projects__card{
         flex-grow: 0;
         flex-shrink: 0;
-        flex-basis: 300px;
+        flex-basis: 15vw;
         display: flex;
         flex-direction: column;
-        height: 40vh;        
+        width: 50vw;
+        height: 45vh;        
         border-radius: 10px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         transition: all 0.4s ease-in-out;

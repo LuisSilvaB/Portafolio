@@ -2,6 +2,10 @@
     .Projects__card_phrase-light{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
+        font-weight: 100;
+        line-height: 1rem;
+        color: rgb(131, 129, 129);
+        height: 10vh;
     }
     Projects__card_phrase-dark{}
 }
@@ -9,6 +13,10 @@
     .Projects__card_phrase-light{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
+        font-weight: 100;
+        line-height: 1rem;
+        color: rgb(131, 129, 129);
+        height: 10vh;
     }
     Projects__card_phrase-dark{}
 }
@@ -16,6 +24,10 @@
     .Projects__card_phrase-light{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
+        font-weight: 100;
+        line-height: 1rem;
+        color: rgb(131, 129, 129);
+        height: 10vh;
     }
     Projects__card_phrase-dark{}
 }
@@ -23,6 +35,10 @@
     .Projects__card_phrase-light{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
+        font-weight: 100;
+        line-height: 1rem;
+        color: rgb(131, 129, 129);
+        height: 10vh;
     }
     Projects__card_phrase-dark{}
 }
