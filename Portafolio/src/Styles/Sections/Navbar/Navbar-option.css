@@ -3,7 +3,7 @@
     width: auto;
     display: flex;
     justify-content: center;
-
+    text-decoration: none;
     box-sizing: border-box;
     font-size: 1rem;
     font-family: var(--monserrat-font);
@@ -29,6 +29,7 @@
     background-color: transparent;
     outline: none;
   }
+
 }
 
 
@@ -41,6 +42,7 @@
     padding: 0.3rem;
     transition: all 0.1s ease-in-out; 
     cursor: pointer;
+    text-decoration: none;
   }
   .Navbar__option-dark{
     color: white;

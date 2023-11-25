@@ -1,6 +1,7 @@
 import { NodeButtomLight, NodeButtomDark } from '../../constants/Constants.js';45
 import { NavbarChangeThemeNavbar } from '../Navbar/Navbar.js';
 import { ChangeThemeHome } from '../Sections/Home/HomeTheme.js';
+import { ChangeThemeProjects } from '../Sections/Projects/ProjectsTheme.js';
 import { ChangeThemeSkillsEducation } from '../Sections/SkillsEducation/S&ETheme.js';
 
 export const ChangeTheme = (idButtomTheme, idNav, idNavOption) => {
@@ -20,6 +21,7 @@ export const ChangeTheme = (idButtomTheme, idNav, idNavOption) => {
       NavbarChangeThemeNavbar(idNav, idNavOption);
       ChangeThemeHome();
       ChangeThemeSkillsEducation();
+      ChangeThemeProjects();
   });
 };
 

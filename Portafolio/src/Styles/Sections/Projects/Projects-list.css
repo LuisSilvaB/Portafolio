@@ -12,16 +12,32 @@
         gap: 20px;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
+        transition: all ease-in-out 0.4s;
     }
-    .Projects__list::-webkit-scrollbar{
+    .Projects__list-light{}
+    .Projects__list-dark{}
+
+    .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
         height: 10px;
         width: 10px;
         border-radius: 20px;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
+    .Projects__list-light::-webkit-scrollbar-thumb{
         width: 1px;
         background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
+    }
+    .Projects__list-dark::-webkit-scrollbar{
+        background: white;
+        height: 10px;
+        width: 10px;
+        border-radius: 20px;
+    }
+    .Projects__list-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
         border-radius: 20px;
         height: 10px;
     }
@@ -40,15 +56,30 @@
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list::-webkit-scrollbar{
+    .Projects__list-light{}
+    .Projects__list-dark{}
+
+    .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
         height: 10px;
         width: 10px;
         border-radius: 20px;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
+    .Projects__list-light::-webkit-scrollbar-thumb{
         width: 1px;
         background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
+    }
+    .Projects__list-dark::-webkit-scrollbar{
+        background: white;
+        height: 10px;
+        width: 10px;
+        border-radius: 20px;
+    }
+    .Projects__list-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
         border-radius: 20px;
         height: 10px;
     }
@@ -66,15 +97,30 @@
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list::-webkit-scrollbar{
+    .Projects__list-light{}
+    .Projects__list-dark{}
+
+    .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
         height: 10px;
         width: 10px;
         border-radius: 20px;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
+    .Projects__list-light::-webkit-scrollbar-thumb{
         width: 1px;
         background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
+    }
+    .Projects__list-dark::-webkit-scrollbar{
+        background: white;
+        height: 10px;
+        width: 10px;
+        border-radius: 20px;
+    }
+    .Projects__list-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
         border-radius: 20px;
         height: 10px;
     }
@@ -92,15 +138,30 @@
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list::-webkit-scrollbar{
+    .Projects__list-light{}
+    .Projects__list-dark{}
+
+    .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
         height: 10px;
         width: 10px;
         border-radius: 20px;
     }
-    .Projects__list::-webkit-scrollbar-thumb{
+    .Projects__list-light::-webkit-scrollbar-thumb{
         width: 1px;
         background-color: #BFD7E1;
+        border-radius: 20px;
+        height: 10px;
+    }
+    .Projects__list-dark::-webkit-scrollbar{
+        background: white;
+        height: 10px;
+        width: 10px;
+        border-radius: 20px;
+    }
+    .Projects__list-dark::-webkit-scrollbar-thumb{
+        width: 1px;
+        background-color: yellow;
         border-radius: 20px;
         height: 10px;
     }

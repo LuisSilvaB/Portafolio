@@ -1,44 +1,64 @@
 @media screen and (min-width: 901px){
-    .Projects__card_phrase-light{
+    .Projects__card_phrase{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
         font-weight: 100;
         line-height: 1rem;
-        color: rgb(131, 129, 129);
-        height: 10vh;
+        height: 12vh;
+        transition: all ease-in-out 0.4s;
     }
-    Projects__card_phrase-dark{}
+    .Projects__card_phrase-light{
+        color: rgb(131, 129, 129);
+    }
+    .Projects__card_phrase-dark{
+        color: white;
+    }
 }
 @media screen and (max-width: 900px){
-    .Projects__card_phrase-light{
+    .Projects__card_phrase{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
         font-weight: 100;
         line-height: 1rem;
-        color: rgb(131, 129, 129);
-        height: 10vh;
+        height: 12vh;
+        transition: all ease-in-out 0.4s;
     }
-    Projects__card_phrase-dark{}
+    .Projects__card_phrase-light{
+        color: rgb(131, 129, 129);
+    }
+    .Projects__card_phrase-dark{
+        color: white;
+    }
 }
 @media screen and (max-width: 600px){
-    .Projects__card_phrase-light{
+    .Projects__card_phrase{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
         font-weight: 100;
         line-height: 1rem;
-        color: rgb(131, 129, 129);
-        height: 10vh;
+        height: 12vh;
+        transition: all ease-in-out 0.4s;
     }
-    Projects__card_phrase-dark{}
+    .Projects__card_phrase-light{
+        color: rgb(131, 129, 129);
+    }
+    .Projects__card_phrase-dark{
+        color: white;
+    }
 }
 @media screen and (max-width: 300px){
-    .Projects__card_phrase-light{
+    .Projects__card_phrase{
         font-size: 0.8rem;
         font-family: var(--monserrat-font);
         font-weight: 100;
         line-height: 1rem;
-        color: rgb(131, 129, 129);
-        height: 10vh;
+        height: 12vh;
+        transition: all ease-in-out 0.4s;
     }
-    Projects__card_phrase-dark{}
+    .Projects__card_phrase-light{
+        color: rgb(131, 129, 129);
+    }
+    .Projects__card_phrase-dark{
+        color: white;
+    }
 }

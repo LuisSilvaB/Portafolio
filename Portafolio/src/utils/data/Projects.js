@@ -2,7 +2,7 @@ export const PROJECTS = [
     {
         id:'0001', 
         title:'Pokedex', 
-        description:'¿Te gustan los pokemons? Entonces te encantará mi proyecto: una app desarrollada en react native que te permite ver toda la información sobre tus pokemons favoritos. ', 
+        description:`Do you like Pokémon? Then you'll love my project: an app developed in React Native that allows you to see all the information about your favorite Pokémon`, 
         technologies: ['html', 'css', 'javascript', 'react'], 
         photoUrl:'./src/img/Projects/Project-mockups/Pokedex.jpeg',
         repositoryUrl:'https://github.com/LuisSilvaB/Portafolio/tree/main/Portafolio',
@@ -11,7 +11,7 @@ export const PROJECTS = [
     {
         id:'0002', 
         title:'Portafolio', 
-        description:'Echa un vistazo a mi portafolio, donde he creado una página web dinámica, interactiva y divertida que muestra mis trabajos anteriores, mi formación académica y mis intereses personales.', 
+        description:'Take a look at my portfolio, where I have created a dynamic, interactive, and fun website showcasing my previous works, academic background, and personal interests.', 
         technologies: ['html', 'css', 'javascript'], 
         photoUrl:'./src/img/Projects/Project-mockups/Portafolio.webp',
         repositoryUrl:'https://github.com/LuisSilvaB/Portafolio/tree/main/Portafolio',
@@ -20,7 +20,7 @@ export const PROJECTS = [
     {
         id:'0003', 
         title:'ORG', 
-        description:'¿Te gustaría trabajar con gente divertida, organizada y colorida? Entonces prueba Ahora de ORG, la app web que te ayuda a formar equipos de trabajo, asignar roles y diferenciar los equipos por colores.', 
+        description:'Would you like to work with fun, organized, and colorful people? Then try Ahora de ORG, the web app that helps you form work teams, assign roles, and differentiate teams by colors.', 
         technologies: ['html', 'css', 'javascript', 'react'], 
         photoUrl:'./src/img/Projects/Project-mockups/ORG.webp',
         repositoryUrl:'https://github.com/LuisSilvaB/Alura-challenges/tree/main/org',
@@ -29,7 +29,7 @@ export const PROJECTS = [
     {
         id:'0004', 
         title:'Alura Geek', 
-        description:'Alura Geek es una tienda online imaginaria que vende todo tipo de gadgets, desde ordenadores hasta drones, pasando por consolas y videojuegos.', 
+        description:'Alura Geek is an imaginary online store that sells all kinds of gadgets, from computers to drones, including consoles and video games.', 
         technologies: ['html', 'css', 'javascript', 'react'], 
         photoUrl:'./src/img/Projects/Project-mockups/AluraGeek.webp',
         repositoryUrl:'https://github.com/LuisSilvaB/Alura-challenges/tree/main/alurageek-app',
@@ -38,7 +38,7 @@ export const PROJECTS = [
     {
         id:'0005', 
         title:'Encriptador', 
-        description:'Encriptador es una aplicación web que te permite convertir cualquier texto en un código secreto que solo tú y tus amigos pueden entender. Por ejemplo, si escribes "Hola, ¿qué tal?" te saldrá algo como "hoberlai ¿qufatenter tail? ".', 
+        description:`Encriptador is a web application that allows you to turn any text into a secret code that only you and your friends can understand.`, 
         technologies: ['html', 'css', 'javascript'], 
         photoUrl:'./src/img/Projects/Project-mockups/Encriptador.webp',
         repositoryUrl:'https://github.com/LuisSilvaB/Alura-challenges/tree/main/Challenge%20Encriptador',

@@ -26,7 +26,7 @@ const CreateButtomTheme = (idContainerButtomTheme) => {
 // Cambair el boton del tema 
 const NavbarChangeThemeNavbar = (idNav,idNavOption) => {
     const Nav = d.getElementById(idNav),
-     NavOption = d.querySelectorAll("li#Nav-option"); 
+     NavOption = d.querySelectorAll("a.Navbar__option"); 
     if (Nav.classList[1] === "Navbar-light") {
             NavbarChangeThemeToDark(Nav,NavOption);
     }else if (Nav.classList[1] === "Navbar-dark") {

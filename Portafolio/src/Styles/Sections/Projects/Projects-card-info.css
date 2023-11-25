@@ -1,108 +1,84 @@
 @media screen and (min-width: 901px){
-    .Projects__card_info-light{
+    .Projects__card_info{
         box-sizing: border-box;
         padding: 15px;
-        background-color: #fcfcfc;
         height: 100%;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        transition: all ease-in-out 0.4s;
+    }
+    .Projects__card_info-light{
+        background-color: #fcfcfc;
+
     }
     .Projects__card_info-dark{
-        box-sizing: border-box;
-        padding: 15px;
-        background-color: #fcfcfc;
-        height: 100%;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        background-color: #0B1928;
     }
 
 }
 @media screen and (max-width: 900px){
-    .Projects__card_info-light{
+    .Projects__card_info{
         box-sizing: border-box;
         padding: 15px;
-        background-color: #fcfcfc;
         height: 100%;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
         flex-direction: column;
         gap: 10px;
-        }
-        .Projects__card_info-dark{
-            box-sizing: border-box;
-            padding: 15px;
-            background-color: #fcfcfc;
-            height: 100%;
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+        transition: all ease-in-out 0.4s;
+    }
+    .Projects__card_info-light{
+        background-color: #fcfcfc;
+
+    }
+    .Projects__card_info-dark{
+        background-color: #0B1928;
+    }
 
     }
 @media screen and (max-width: 600px){
-    .Projects__card_info-light{
+    .Projects__card_info{
         box-sizing: border-box;
         padding: 15px;
-        background-color: #fcfcfc;
         height: 100%;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        transition: all ease-in-out 0.4s;
+    }
+    .Projects__card_info-light{
+        background-color: #fcfcfc;
+
     }
     .Projects__card_info-dark{
-        box-sizing: border-box;
-        padding: 15px;
-        background-color: #fcfcfc;
-        height: 100%;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        background-color: #0B1928;
     }
 
 }
 @media screen and (max-width: 300px){
-    .Projects__card_info-light{
+    .Projects__card_info{
         box-sizing: border-box;
         padding: 15px;
-        background-color: #fcfcfc;
         height: 100%;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        transition: all ease-in-out 0.4s;
     }
-    .Projects__card_info-light::-webkit-scrollbar-track{
-        width: 1px;
-        color: white;
-    }
-    .Projects__card_info-light::-webkit-scrollbar-thumb{
-        width: 1px;
-        color: white;
+    .Projects__card_info-light{
+        background-color: #fcfcfc;
+
     }
     .Projects__card_info-dark{
-        box-sizing: border-box;
-        padding: 15px;
-        background-color: #fcfcfc;
-        height: 100%;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        background-color: #0B1928;
     }
 
 }

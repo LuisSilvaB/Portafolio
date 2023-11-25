@@ -1,32 +1,40 @@
 @media screen and (min-width: 901px){
     .Projects__title_span-light{
         color: #053b50;
+        transition: all ease-in-out 0.4s;
     }
     .Projects__title_span-dark{
         color: yellow;
+        transition: all ease-in-out 0.4s;
     }
 }
 @media screen and (max-width: 900px){
     .Projects__title_span-light{
         color: #053b50;
+        transition: all ease-in-out 0.4s;
     }
     .Projects__title_span-dark{
         color: yellow;
+        transition: all ease-in-out 0.4s;
     }
 }
 @media screen and (max-width: 600px){
     .Projects__title_span-light{
         color: #053b50;
+        transition: all ease-in-out 0.4s;
     }
     .Projects__title_span-dark{
         color: yellow;
+        transition: all ease-in-out 0.4s;
     }
 }
 @media screen and (max-width: 300px){
     .Projects__title_span-light{
         color: #053b50;
+        transition: all ease-in-out 0.4s;
     }
     .Projects__title_span-dark{
         color: yellow;
+        transition: all ease-in-out 0.4s;
     }
 }

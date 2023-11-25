@@ -49,6 +49,12 @@
         --tarawera-900: rgba(16 82 105);
         --tarawera-950: rgba(4 59 80);
 
-
+scroll-behavior: smooth;
 
 }       
+html{
+        scroll-behavior: smooth;
+}
+#html{
+        scroll-behavior: smooth;
+}
