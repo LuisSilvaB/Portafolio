@@ -40,12 +40,12 @@
 @media screen and (max-width: 600px){
     .Contact{
         width: 100%;
-        height: auto;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         transition: all ease-in-out 0.4s;
-        margin-bottom: 20px;
+       
     }
     .Contact-light{
         background-color: white;
@@ -57,7 +57,7 @@
 @media screen and (max-width: 300px){
     .Contact{
         width: 100%;
-        height: auto;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
