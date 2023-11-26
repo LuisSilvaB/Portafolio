@@ -1,0 +1,80 @@
+@media screen and (min-width: 901px){
+    .Contact__message_sucess{
+        width: auto;
+        height: 30px;
+        background-color: rgb(143, 212, 143);
+        color: white;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+        border-radius: 10px;
+        font-family:var(--montserrat-font);
+        font-size: 0.7vw;
+        margin-top: 10px;
+    }
+    .Contact__message_sucess-active{
+        display: inline;
+    }
+    .Contact__message_sucess-inactive{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__message_sucess{
+        width: auto;
+        height: 30px;
+         background-color: rgb(143, 212, 143);
+        color: white;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+        border-radius: 10px;
+        font-family:var(--montserrat-font);
+        font-size: 0.7vw;
+        margin-top: 10px;
+    }
+    .Contact__message_sucess-active{
+        display: inline;
+    }
+    .Contact__message_sucess-inactive{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .Contact__message_sucess{
+        width: auto;
+        height: 30px;
+         background-color: rgb(143, 212, 143);
+        color: white;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+        border-radius: 10px;
+        font-family:var(--montserrat-font);
+        font-size: 0.7vw;
+        margin-top: 10px;
+    }
+    .Contact__message_sucess-active{
+        display: inline;
+    }
+    .Contact__message_sucess-inactive{
+        display: none;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__message_sucess{
+        width: auto;
+        height: 30px;
+         background-color: rgb(143, 212, 143);
+        color: white;
+        padding: 10px;
+        transition: all 0.4s ease-in-out;
+        border-radius: 10px;
+        font-family:var(--montserrat-font);
+        font-size: 0.7vw;
+        margin-top: 10px;
+    }
+    .Contact__message_sucess-active{
+        display: inline;
+    }
+    .Contact__message_sucess-inactive{
+        display: none;
+    }
+}

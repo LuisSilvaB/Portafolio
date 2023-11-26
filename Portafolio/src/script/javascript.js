@@ -7,6 +7,7 @@ import { renderProjectsItems } from "./Sections/Projects/ProjectsList.js";
 import { getIconBytTechnology } from "../utils/getIconstByTechnologies.js";
 import { goToPage } from "./Sections/Home/ButtonFuncions.js";
 import { goToSection } from "./Navbar/ButonFunctions.js";
+import { ContactButtonsFunctions } from "./Sections/Contact/ButtonFunctions.js";
 
 const d = document; 
 d.addEventListener("DOMContentLoaded", (e)=>{
@@ -25,4 +26,6 @@ d.addEventListener("DOMContentLoaded", (e)=>{
   //Projects 
   renderProjectsItems(); 
   goToPage(); 
+  //Contacts 
+  ContactButtonsFunctions(); 
 })

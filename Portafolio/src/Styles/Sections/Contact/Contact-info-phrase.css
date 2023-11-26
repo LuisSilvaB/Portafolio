@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .Contact__info_phrase{
+        font-family: var(--montserrat-font);
+        color: #053b50;
+        font-weight: 600;
+        line-height: 1.3rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__info_phrase{
+        font-family: var(--montserrat-font);
+        color: #053b50;
+        font-weight: 600;
+        line-height: 1.3rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .Contact__info_phrase{
+        font-family: var(--montserrat-font);
+        color: #053b50;
+        font-weight: 600;
+        line-height: 1.3rem;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__info_phrase{
+        font-family: var(--montserrat-font);
+        color: #053b50;
+        font-weight: 600;
+        line-height: 1.3rem;
+    }
+}

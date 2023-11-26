@@ -1,0 +1,48 @@
+@media screen and (min-width: 901px){
+    .Contact__form_label{
+        font-family: var(--montserrat-font);
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact__form_label-light{
+        color: #053B50;
+    }
+    .Contact__form_label-dark{
+        color: white;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__form_label{
+        font-family: var(--montserrat-font);
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact__form_label-light{
+        color: #053B50;
+    }
+    .Contact__form_label-dark{
+        color: white;
+    }
+}
+@media screen and (max-width: 600px){
+    .Contact__form_label{
+        font-family: var(--montserrat-font);
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact__form_label-light{
+        color: #053B50;
+    }
+    .Contact__form_label-dark{
+        color: white;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__form_label{
+        font-family: var(--montserrat-font);
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact__form_label-light{
+        color: #053B50;
+    }
+    .Contact__form_label-dark{
+        color: white;
+    }
+}

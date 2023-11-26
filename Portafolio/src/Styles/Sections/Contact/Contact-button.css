@@ -1,0 +1,129 @@
+@media screen and (min-width: 901px){
+    .Contact__button{
+        width: fit-content;
+        outline: none;
+        border: none;
+        height: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all ease-in-out 0.4s;
+        font-family:var(--montserrat-font);
+        font-size: 0.7vw;
+        color: #053B50;
+    }
+    .Contact__button:hover{
+        box-shadow: none;
+        border: solid 0.1px lightgrey;
+    }
+
+    .Contact__button_send-light{
+        background-color: #BFD7E1;
+        color: white;
+        margin-top: 10px;
+    }
+    .Contact__button_send-dark{
+        background-color: white;
+        color: #053B50;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__button{
+        width: fit-content;
+        outline: none;
+        border: none;
+        height: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all ease-in-out 0.4s;
+        font-family:var(--montserrat-font);
+        font-size: 0.7vw;
+        color: #053B50;
+    }
+    .Contact__button:hover{
+        box-shadow: none;
+        border: solid 0.1px lightgrey;
+    }
+    .Contact__button_send-light{
+        background-color: #BFD7E1;
+        color: white;
+        margin-top: 10px;
+    }
+    .Contact__button_send-dark{
+        background-color: white;
+        color: #053B50;
+        margin-top: 10px;
+    }
+@media screen and (max-width: 600px){
+    .Contact__button{
+        width: fit-content;
+        outline: none;
+        border: none;
+        height: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all ease-in-out 0.4s;
+        font-family:var(--montserrat-font);
+        font-size: 3vw;
+        color: #053B50;
+    }
+    .Contact__button:hover{
+        box-shadow: none;
+        border: solid 0.1px lightgrey;
+    }
+    .Contact__button_send-light{
+        background-color: #BFD7E1;
+        color: white;
+        margin-top: 10px;
+    }
+    .Contact__button_send-dark{
+        background-color: white;
+        color: #053B50;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__button{
+        width: fit-content;
+        outline: none;
+        border: none;
+        height: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: all ease-in-out 0.4s;
+        font-family:var(--montserrat-font);
+        font-size: 3vw;
+        color: #053B50;
+    }
+    .Contact__button:hover{
+        box-shadow: none;
+        border: solid 0.1px lightgrey;
+    }
+    .Contact__button_send-light{
+        background-color: #BFD7E1;
+        color: white;
+        margin-top: 10px;
+    }
+    .Contact__button_send-dark{
+        background-color: white;
+        color: #053B50;
+        margin-top: 10px;
+    }
+}
+}

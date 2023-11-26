@@ -37,7 +37,7 @@
 @media screen and (max-width: 600px){
     .skills-education__education_item_time-line-light{
         position: absolute;
-        width: 5px;
+        width: 3px;
         height: 180%;
         border-radius: 20px;
         background-color: #BFD7E1;
@@ -45,7 +45,7 @@
     }
     .skills-education__education_item_time-line-dark{
         position: absolute;
-        width: 5px;
+        width: 3px;
         height: 180%;
         border-radius: 20px;
         background-color: yellow;
@@ -55,13 +55,13 @@
 @media screen and (max-width: 300px){-light
     .skills-education__education_item_time-line{
         position: absolute;
-        width: 5px;
+        width: 3px;
         height: 180%;
         border-radius: 20px;
     }
     .skills-education__education_item_time-dark-line{
         position: absolute;
-        width: 5px;
+        width: 3px;
         height: 180%;
         border-radius: 20px;
         background-color: yellow;

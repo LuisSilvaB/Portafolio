@@ -1,0 +1,72 @@
+@media screen and (min-width: 901px){
+    .Contact{
+        box-sizing: border-box;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact-light{
+        background-color: white;
+    }
+    .Contact-dark{
+        background-color: #060c14;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact{
+        box-sizing: border-box;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact-light{
+        background-color: white;
+    }
+    .Contact-dark{
+        background-color: #060c14;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .Contact{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.4s;
+        margin-bottom: 20px;
+    }
+    .Contact-light{
+        background-color: white;
+    }
+    .Contact-dark{
+        background-color: #060c14;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.4s;
+    }
+    .Contact-light{
+        background-color: white;
+    }
+    .Contact-dark{
+        background-color: #060c14;
+    }
+}

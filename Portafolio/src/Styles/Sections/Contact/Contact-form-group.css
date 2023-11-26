@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .Contact__form_group{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__form_group{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 600px){
+    .Contact__form_group{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__form_group{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

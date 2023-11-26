@@ -1,0 +1,56 @@
+@media screen and (min-width: 901px){
+    .Contact__form_title{
+        font-family: var(--montserrat-font);
+        font-weight: bold;
+        font-size: 2vw;
+        color: #E0D0C0;
+    }
+    .Contact__form_title_span-light{
+        color: #053B50;
+    }
+    .Contact__form_title_span-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__form_title{
+        font-family: var(--montserrat-font);
+        font-weight: bold;
+        font-size: 2vw;
+        color: #E0D0C0;
+    }
+    .Contact__form_title_span-light{
+        color: #053B50;
+    }
+    .Contact__form_title_span-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 600px){
+    .Contact__form_title{
+        font-family: var(--montserrat-font);
+        font-weight: bold;
+        font-size: 5vw;
+        color: #E0D0C0;
+    }
+    .Contact__form_title_span-light{
+        color: #053B50;
+    }
+    .Contact__form_title_span-dark{
+        color: yellow;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__form_title{
+        font-family: var(--montserrat-font);
+        font-weight: bold;
+        font-size: 5vw;
+        color: #E0D0C0;
+    }
+    .Contact__form_title_span-light{
+        color: #053B50;
+    }
+    .Contact__form_title_span-dark{
+        color: yellow;
+    }
+}

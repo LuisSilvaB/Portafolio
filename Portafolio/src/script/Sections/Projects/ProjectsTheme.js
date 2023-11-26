@@ -11,7 +11,6 @@ const el = d.getElementsByClassName('Projects__card_container_technologies')
 const $ProjectsPhrases = d.getElementsByClassName('Projects__card_phrase'); 
 export const ChangeThemeProjects = () => {
     $Projects.classList.contains('Projects-light')?ThemeLight():ThemeDark(); 
-    console.log($ProjectsPhrases);
 }
 
 const ThemeDark = () => {

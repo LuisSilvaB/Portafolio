@@ -1,0 +1,32 @@
+@media screen and (min-width: 901px){
+    .Contact__container{
+        width: 60vw;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 900px){
+    .Contact__container{
+        width: 60vw;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 600px){
+    .Contact__container{
+        width: 80vw;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 300px){
+    .Contact__container{
+        width: 80vw;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
