@@ -1,15 +1,21 @@
 export const PROJECTS = [
     {
-        id:'0001', 
+        title:'Ravn Task Challenge', 
+        description:`This task management application, built with Vite, allows you to efficiently register, delete, edit, and change the status of your tasks`, 
+        technologies: ['html', 'css', 'javascript', 'react','graphql','apollo'], 
+        photoUrl:'./src/img/Projects/Project-mockups/RavnTaskChallenge.webp',
+        repositoryUrl:'https://github.com/LuisSilvaB/react-task-challenge',
+        webUrl:'https://react-task-challenge.vercel.app/', 
+    },
+    {
         title:'Pokedex', 
         description:`Do you like Pokémon? Then you'll love my project: an app developed in React Native that allows you to see all the information about your favorite Pokémon`, 
-        technologies: ['html', 'css', 'javascript', 'react'], 
+        technologies: ['html', 'css', 'javascript', 'react', 'expo'], 
         photoUrl:'./src/img/Projects/Project-mockups/Pokedex.jpeg',
         repositoryUrl:'https://github.com/LuisSilvaB/Portafolio/tree/main/Portafolio',
         webUrl:'https://portafolio-kappa-mocha.vercel.app/', 
     },
     {
-        id:'0002', 
         title:'Portafolio', 
         description:'Take a look at my portfolio, where I have created a dynamic, interactive, and fun website showcasing my previous works, academic background, and personal interests.', 
         technologies: ['html', 'css', 'javascript'], 
@@ -18,7 +24,6 @@ export const PROJECTS = [
         webUrl:'https://portafolio-kappa-mocha.vercel.app/', 
     }, 
     {
-        id:'0003', 
         title:'ORG', 
         description:'Would you like to work with fun, organized, and colorful people? Then try Ahora de ORG, the web app that helps you form work teams, assign roles, and differentiate teams by colors.', 
         technologies: ['html', 'css', 'javascript', 'react'], 
@@ -27,7 +32,6 @@ export const PROJECTS = [
         webUrl:'https://org-alura-delta.vercel.app/', 
     }, 
     {
-        id:'0004', 
         title:'Alura Geek', 
         description:'Alura Geek is an imaginary online store that sells all kinds of gadgets, from computers to drones, including consoles and video games.', 
         technologies: ['html', 'css', 'javascript', 'react'], 
@@ -36,7 +40,6 @@ export const PROJECTS = [
         webUrl:'https://alura-geek-umber.vercel.app/', 
     }, 
     {
-        id:'0005', 
         title:'Encriptador', 
         description:`Encriptador is a web application that allows you to turn any text into a secret code that only you and your friends can understand.`, 
         technologies: ['html', 'css', 'javascript'], 

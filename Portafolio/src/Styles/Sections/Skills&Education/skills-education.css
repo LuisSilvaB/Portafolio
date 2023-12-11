@@ -7,6 +7,7 @@
         justify-content: center;
         align-items: center;
         background: white;
+        color: black;
         transition: all 0.4s ease-in-out;
     }
     .skills-education-dark{
@@ -17,6 +18,7 @@
         justify-content: center;
         align-items: center;
         background-color: #060C14;
+        color: white;
         transition: all 0.4s ease-in-out;
     }
 }

@@ -5,6 +5,13 @@
         width: auto;
         gap: 10px;
     }
+    .Projects__card_container_technologies--light{
+        color: white;
+
+    }
+    .Projects__card_container_technologies--dark{
+
+    }
 }
 @media screen and (max-width: 900px){
     .Projects__card_container_technologies{
@@ -12,6 +19,13 @@
         flex-direction: row;
         width: auto;
         gap: 10px;
+    }
+    .Projects__card_container_technologies--light{
+        color: white;
+
+    }
+    .Projects__card_container_technologies--dark{
+
     }
 }
 @media screen and (max-width: 600px){
@@ -21,6 +35,12 @@
         width: auto;
         gap: 10px;
     }
+    .Projects__card_container_technologies--light{
+        color: white;
+    }
+    .Projects__card_container_technologies--dark{
+        
+    }
 }
 @media screen and (max-width: 300px){
     .Projects__card_container_technologies{
@@ -28,5 +48,11 @@
         flex-direction: row;
         width: auto;
         gap: 10px;
+    }
+    .Projects__card_container_technologies--light{
+        color: white;
+    }
+    .Projects__card_container_technologies--dark{
+    
     }
 }

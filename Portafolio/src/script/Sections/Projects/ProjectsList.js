@@ -33,7 +33,7 @@ export const renderProjectsItems = () => {
         $p.innerText = el.description;  
         $divContainerTechnologies.classList.add('Projects__card_container_technologies')
         el.technologies.forEach((el)=>{
-            const technologySvg = getIconBytTechnology(el); 
+            const technologySvg = getIconBytTechnology(el);
             $divContainerTechnologies.appendChild(technologySvg); 
         })
         $divContainerButtons.classList.add("Projects__card_container_buttons");  

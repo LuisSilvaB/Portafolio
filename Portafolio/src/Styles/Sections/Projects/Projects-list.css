@@ -14,8 +14,12 @@
         scroll-snap-type: x mandatory;
         transition: all ease-in-out 0.4s;
     }
-    .Projects__list-light{}
-    .Projects__list-dark{}
+    .Projects__list-light{
+        color: black;
+    }
+    .Projects__list-dark{
+        color: white;
+    }
 
     .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
@@ -56,9 +60,12 @@
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list-light{}
-    .Projects__list-dark{}
-
+    .Projects__list-light{
+        color: black;
+    }
+    .Projects__list-dark{
+        color: white;
+    }
     .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
         height: 10px;
@@ -97,8 +104,12 @@
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list-light{}
-    .Projects__list-dark{}
+    .Projects__list-light{
+        color: black;
+    }
+    .Projects__list-dark{
+        color: white;
+    }
 
     .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
@@ -138,8 +149,12 @@
         gap: 20px;
         overflow-x: scroll;
     }
-    .Projects__list-light{}
-    .Projects__list-dark{}
+    .Projects__list-light{
+        color: black;
+    }
+    .Projects__list-dark{
+        color: white;
+    }
 
     .Projects__list-light::-webkit-scrollbar{
         background: lightgray;
