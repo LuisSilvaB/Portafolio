@@ -1,8 +1,16 @@
 export const PROJECTS = [
     {
+        title:'ID KDS Challenge', 
+        description:`Order management application, built with Vite, that allows you to record order status efficiently.`, 
+        technologies: ['react','typescript','vite','redux','styled_conponents'], 
+        photoUrl:'./src/img/Projects/Project-mockups/KDS-Challenge_compresed.webp',
+        repositoryUrl:'https://github.com/LuisSilvaB/challenge-fronted-kds',
+        webUrl:'https://challenge-fronted-kds.vercel.app/', 
+    },
+    {
         title:'Ravn Task Challenge', 
         description:`This task management application, built with Vite, allows you to efficiently register, delete, edit, and change the status of your tasks`, 
-        technologies: ['html', 'css', 'javascript', 'react','graphql','apollo'], 
+        technologies: ['html', 'css', 'javascript', 'react','graphql','apollo', 'vite'], 
         photoUrl:'./src/img/Projects/Project-mockups/RavnTaskChallenge.webp',
         repositoryUrl:'https://github.com/LuisSilvaB/react-task-challenge',
         webUrl:'https://react-task-challenge.vercel.app/', 

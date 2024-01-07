@@ -3,11 +3,6 @@ import { getIconBytTechnology } from "../../../utils/getIconstByTechnologies.js"
 
 const d = document; 
 export const renderProjectsItems = () => {
-    d.addEventListener('click', (e)=>{
-        if (e.target.closest('#button__theme')) {
-            console.log('BotonTheme');
-        }
-    })
     const $ListContainer = d.getElementById("Project-List"); 
     PROJECTS.forEach((el) => {
         // Create Elements 
