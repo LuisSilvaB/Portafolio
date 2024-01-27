@@ -1,5 +1,13 @@
 export const PROJECTS = [
     {
+        title:'Rextie app clone', 
+        description:`This project is a partial clone of the Rexie app, inspired by its functionality. It's a practice application designed for learning and skill improvement`, 
+        technologies: ['react','typescript','nextjs','tailwind'], 
+        photoUrl:'./src/img/Projects/Project-mockups/Rextie-app-clone.webp',
+        repositoryUrl:'https://github.com/LuisSilvaB/rextie-clone-app',
+        webUrl:'https://rextie-clone-app.vercel.app/', 
+    },
+    {
         title:'ID KDS Challenge', 
         description:`Order management application, built with Vite, that allows you to record order status efficiently.`, 
         technologies: ['react','typescript','vite','redux','styled_conponents'], 
