@@ -1,5 +1,14 @@
 export const PROJECTS = [
     {
+        title:'Voice quiz app', 
+        description:`
+        This is a project that allows teachers to use artificial intelligence to create questions and share them as interactive quizzes. `, 
+        technologies: ['react','typescript','vite','tailwind', 'supabase', 'python'], 
+        photoUrl:'./src/img/Projects/Project-mockups/voice-quiz-app.webp',
+        repositoryUrl:'https://github.com/LuisSilvaB/voice-quiz-app',
+        webUrl:'https://voice-quiz-app.vercel.app/', 
+    },
+    {
         title:'Rextie app clone', 
         description:`This project is a partial clone of the Rexie app, inspired by its functionality. It's a practice application designed for learning and skill improvement`, 
         technologies: ['react','typescript','nextjs','tailwind'], 

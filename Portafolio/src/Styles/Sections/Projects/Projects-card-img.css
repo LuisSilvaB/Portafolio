@@ -2,6 +2,7 @@
     .Projects__card_img{
         width: 100%;
         height: auto;
+        min-height: 170px;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
     }
