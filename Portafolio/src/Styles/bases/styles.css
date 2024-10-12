@@ -58,3 +58,10 @@ html{
 #html{
         scroll-behavior: smooth;
 }
+
+body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}

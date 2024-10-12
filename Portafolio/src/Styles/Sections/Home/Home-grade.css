@@ -1,0 +1,51 @@
+@media screen and (min-width: 901px) {
+  .Home__grade_p{
+      font-family: 'Montserrat';
+      font-size: 1.4rem;
+  }
+  .Home__grade_p-light{
+      color: #176B87;
+  }
+  .Home__grade_p-dark{
+      color: white;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Home__grade_p{
+      font-family: 'Montserrat';
+      font-size: 1.3rem;
+      color: #176B87; 
+  }
+  .Home__grade_p-light{
+      color: #176B87;
+  }
+  .Home__grade_p-dark{
+      color: white;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Home__grade_p{
+      font-family: 'Montserrat';
+      font-size: 1.3rem;
+      color: #176B87; 
+  }
+  .Home__grade_p-light{
+      color: #176B87;
+  }
+  .Home__grade_p-dark{
+      color: white;
+  }
+}
+@media screen and (max-width: 300px) {
+  .Home__grade_p{
+      font-family: 'Montserrat';
+      font-size: 1.3rem;
+      color: #176B87; 
+  }
+  .Home__grade_p-light{
+      color: #176B87;
+  }
+  .Home__grade_p-dark{
+      color: white;
+  }
+}
