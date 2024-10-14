@@ -17,7 +17,7 @@ d.addEventListener("DOMContentLoaded", (e)=>{
   responsiveHamburguer("Navbar-button","Navbar-list"); 
   goToSection(); 
   //home 
-  downloadCv()
+  // downloadCv()
   //About
   // replace_paragraph(); 
   
