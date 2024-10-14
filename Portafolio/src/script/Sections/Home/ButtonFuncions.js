@@ -10,8 +10,7 @@ export const goToPage = (url) => {
             w.open('https://www.linkedin.com/in/luis-armando-silva-balladares-75731124b/', '_blank'); 
         }
         if (e.target.matches('#Button-Cv')) {
-            console.log('in cv');
-            w.open('/src/pdf/[CV]LuisSilvaBalladares.pdf', '_blanck', 'download')
+            w.open('https://drive.google.com/file/d/1kXZPwefkM69KcvSji4TWV1Q5Xi9V_gP8/view?usp=sharing', '_blank')
         }
     });
 }
